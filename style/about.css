@@ -1,0 +1,97 @@
+html,body{
+	height:100%;
+	margin: 0;
+}
+.flare{
+	width: 1024px;
+	min-height: 100%;
+	margin: 0 auto;
+	margin-bottom: -217px;
+	background: url(../images/body-background.png) -140px -8px no-repeat;	
+	padding-bottom: 200px;
+}
+
+.header{
+	margin-bottom: -30px;
+}
+
+.flare:after{
+	content: "";
+	display: block;
+	heiht: 217px;
+}
+
+.content{
+	width: 1024px;
+	height: 780px;
+}
+
+p.president-title{
+	font-size: 18pt;
+	color: #6ba5c2;
+	line-height: 30px;
+	margin: 0;
+}
+
+p.president-name{
+	font-size: 26pt;
+	color: #6ba5c2;
+	line-height: 30px;
+	margin: 0;
+}
+
+h.bank-details-title{
+	color: #6ba5c2;
+	font-size: 15pt;
+}
+
+.bank-details{
+	margin-top: 15px;
+	padding: 15px;
+	border: 1px solid #1b3544;
+	border-radius: 8px;
+	width: 330px;
+	color: #869da5
+}
+
+.details  td{
+	min-width: 90px;
+}
+
+.president{
+	margin-top: 50px;
+	padding: 15px 0 15px 0;
+	background: url(../images/border.png) no-repeat;
+	height: 95px;
+}
+
+.text {
+	color: #869ba6;
+	font-size: 11pt;
+	line-height: 20px;
+}
+
+.photo-container{
+	float: left;
+	margin-left: 5px;
+	
+}
+.photo-container > img{ 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	float: left
+}
+.text-container{
+	text-align: left;
+	margin-left: 30px;
+	float: right;
+	width: 653px;
+}
+.text-container > h.title{
+	color: #ffffff;
+	font-size:28pt;
+	text-align: right;
+	float: left;
+}
+
