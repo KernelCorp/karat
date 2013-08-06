@@ -53,6 +53,7 @@ html,body{
 .footer-left{
 	float: left;
 	margin-top: 145px;
+	text-align: left;
 }
 .footer-left > p{
 	margin: 0 0 10px 0;
@@ -63,18 +64,18 @@ html,body{
 
 
 .footer-left > p.title-phone{
-	font-size: 11pt;
+	font-size: 9pt;
 	color: #d4f0fd;	
 }
 
 
 .footer-left > p.phone{
-	font-size: 13pt;
+	font-size: 11pt;
 	color: #d4f0fd;
 }
 
 .footer-left > p.phone-prefix{
-	font-size: 13pt;
+	font-size: 11pt;
 	color: #0084cb;
 }
 

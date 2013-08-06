@@ -8,6 +8,11 @@ body
 	color: #ffffff;
 }
 
+a img
+{
+	border: none;
+}
+
 .container
 {
 	width: 1024px;
@@ -39,7 +44,7 @@ h1, h2, h3, h4, h5, h6
 {
 	background-image: url('../images/main_page_gallery_new_background.png');
 	background-repeat: no-repeat;
-	width: 258px;
+	width: 270px;
 	height: 152px;
 	margin: -162px 0 0 -258px;
 	padding: 22px 0 0;
@@ -88,7 +93,7 @@ h1, h2, h3, h4, h5, h6
 .example span
 {
 	font-size: 12px;
-	line-height: 10px;
+	line-height: 14px;
 	color: #ccc;
 }
 
@@ -139,8 +144,18 @@ h1, h2, h3, h4, h5, h6
 	display: inline-block;
 	width: 231px;
 	height: 310px;
-	margin-right: 15px;
+	margin-right: 20px;
 	vertical-align: top;
+	float: left;
+}
+
+.examples_4 .navigation ul
+{
+	margin-left: 380px;
+}
+.examples_4 .navigation ul li
+{
+	float: left;
 }
 
 .examples_4 .paginator .last
@@ -217,6 +232,11 @@ h1, h2, h3, h4, h5, h6
 	display: inline-block;
 }
 
+.examples_4 
+{
+	margin-left: 20px;
+}
+
 .examples_4 .navigation 
 {
 	padding: 20px 0;
@@ -257,6 +277,7 @@ h1, h2, h3, h4, h5, h6
 	margin-right: 20px;
 	vertical-align: top;
 	width: 680px;		
+	float: left;
 }
 
 .company_and_news  .company .more
@@ -286,7 +307,7 @@ h1, h2, h3, h4, h5, h6
 
 .company_and_news  .news h1
 {
-	margin-bottom: 0;
+	margin-bottom: 0px;
 }
 
 .company_and_news .news  .more
@@ -304,7 +325,7 @@ h1, h2, h3, h4, h5, h6
 .company_and_news .news  .elem
 {
 	border-bottom: 1px solid #226a83;
-	padding: 15px 0 15px;
+	padding: 0 0 15px;
 }
 
 .company_and_news .news  .elem .date

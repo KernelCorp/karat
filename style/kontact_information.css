@@ -1,3 +1,83 @@
 .flare{	
 	background: url(../images/body-background.png) -140px -8px no-repeat;		
 }
+
+.content > .left{
+	float: left;
+}
+
+.content > .right{
+	float: right;
+	text-align: left;
+	width: 550px;
+}
+
+.content  input{
+	background: url(../images/input-skin.png) 0 0 no-repeat;
+	border-width: 0;
+	width: 326px;
+	height: 33px;
+	padding: 0 15px 3px 3px;
+	font-size: 15pt;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+}
+
+.content  input:focus{
+	outline: none;
+	background: url(../images/input-skin-focus.png) 0 0 no-repeat;
+}
+
+.content > .title{
+	font-size: 30pt;
+	color: #ffffff;
+}
+
+.content label{
+	font-size: 13pt;
+	color: #869ba7;
+}
+
+.content sup{
+	color: #a88a0c
+}
+
+.content .submit{
+	display: inline;
+	background: url(../images/kontact-data-submit.png) -1px -1px no-repeat;
+	border-width: 0;
+	width: 123px;
+	height: 34px;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #ffffff;
+	cursor: pointer;
+	margin-top: 15px;
+	line-height: 30px;
+}
+
+.content .submit:hover{
+	background: url(../images/kontact-data-submit-hover.png) -1px -1px no-repeat;
+	cursor: pointer;
+}
+
+.content .submit:active{
+	background: url(../images/kontact-data-submit-active.png) -1px -1px no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	cursor: pointer;
+}
+
+
+.content .hint{
+	display: inline;
+	margin-right: 10px;
+	font-size: 9pt;
+	color: #99afb5;
+}
+
+
+.content{
+	min-height: 300px;
+	margin-top: -60px;
+}
