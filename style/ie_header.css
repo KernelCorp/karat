@@ -62,8 +62,6 @@ body
 
 .header .language  li
 {
-	background-image: url('../images/language_background.png');
-	background-repeat: no-repeat;
 	padding: 0;
 	height: 17px;
 	width: 24px;
@@ -106,9 +104,9 @@ body
 	display: inline-block;
 	font-size: 12px;
 	height: 34px;
-	padding: 10px 10px; 
+	padding: 10px 7px; 
 	margin: 10px 0px;
-	min-width: 88px;
+	min-width: 94px;
 }
 
 .header .menu li a:hover
@@ -118,6 +116,10 @@ body
 	background-image: url('../images/menu_select.png');
 	background-repeat: no-repeat;
 
+}
+.header .menu li a.long
+{
+	min-width: 134px;
 }
 .header .menu li a.long:hover
 {
