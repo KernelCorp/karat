@@ -1,29 +1,19 @@
-html,body{
-	height:100%;
-	margin: 0;
+
+.flare{	
+	background: url(../images/body-background.png) -140px -8px no-repeat;		
 }
-.flare{
-	width: 1024px;
-	min-height: 100%;
-	margin: 0 auto;
-	margin-bottom: -217px;
-	background: url(../images/body-background.png) -140px -8px no-repeat;	
-	padding-bottom: 200px;
-}
+
 
 .header{
 	margin-bottom: -30px;
 }
 
-.flare:after{
-	content: "";
-	display: block;
-	heiht: 217px;
-}
+
 
 .content{
 	width: 1024px;
 	height: 780px;
+	margin: 0 auto;
 }
 
 p.president-title{
@@ -40,18 +30,19 @@ p.president-name{
 	margin: 0;
 }
 
-h.bank-details-title{
+h1.bank-details-title{
 	color: #6ba5c2;
 	font-size: 15pt;
+	font-weight: normal;
 }
 
 .bank-details{
 	margin-top: 15px;
-	padding: 15px;
-	border: 1px solid #1b3544;
-	border-radius: 8px;
-	width: 330px;
-	color: #869da5
+	padding: 6px;
+	background: url(../images/details-border.png) 0 0 no-repeat;	
+	width: 300px;
+	color: #869da5;
+	font-weight: normal;
 }
 
 .details  td{
@@ -59,7 +50,7 @@ h.bank-details-title{
 }
 
 .president{
-	margin-top: 50px;
+	margin-top: 60px;
 	padding: 15px 0 15px 0;
 	background: url(../images/border.png) no-repeat;
 	height: 95px;
@@ -76,10 +67,7 @@ h.bank-details-title{
 	margin-left: 5px;
 	
 }
-.photo-container > img{ 
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
+.photo-container > img{ 	
 	float: left
 }
 .text-container{
@@ -88,10 +76,11 @@ h.bank-details-title{
 	float: right;
 	width: 653px;
 }
-.text-container > h.title{
+.title-h1{
 	color: #ffffff;
-	font-size:28pt;
+	font-size: 28pt;
 	text-align: right;
 	float: left;
+	font-weight: normal;
 }
 
