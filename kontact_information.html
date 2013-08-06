@@ -4,13 +4,16 @@
 		<meta charset='utf-8'>
 		<link rel="stylesheet" href="./style/header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />		
-		<link rel="stylesheet" href="./style/kontact_information.css" type="text/css" />		
+		<link rel="stylesheet" href="./style/kontact_information.css" type="text/css" />					
 		<!--[if (gte IE 7)]>
 			<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
-			<link rel="stylesheet" type="text/css" href="style/footer-ie7.css">
+			<link rel="stylesheet" type="text/css" href="./style/footer-ie7.css">
+			<link rel="stylesheet" type="text/css" href="./style/kontact_information-ie7.css">
+			<script type="text/javascript" src="./js/jquery.min.js"></script>
+			<script type="text/javascript" src="./js/kontact_information-ie7.js"></script>	
 		<![endif]-->
 	</head>
-	<body>
+	<body onload="javascript:onbody()">
 		<div class="flare">		
 			<div class='header'>
 				<div class='info'>
@@ -43,6 +46,32 @@
 				</div>
 			</div>
 			<div class="content">
+				<h1 class="title"> Оформление заказа</h1>
+				<div class="left">
+					<label>Фамилия<sup>*</sup></label>
+					<br>
+					<input class="last-name">
+					<br>
+					<label>Имя<sup>*</sup></label>
+					<br>
+					<input class="name">
+					<br>	
+					<label>Отчество<sup>*</sup></label>
+					<br>
+					<input class="middle-name">
+				</div>
+				<div class="right">
+					<label>E-mail<sup>*</sup></label>
+					<br>
+					<input class="e-mail">
+					<br>
+					<label>Телефон<sup>*</sup></label>
+					<br>
+					<input class="phone">
+					<br>
+					<p class="hint"><sup>*</sup> поля обязательны для заполнения</p>
+					<button class="submit">Далее</button>
+				</div>
 			</div>
 		</div>	
 		<div class="footer">
