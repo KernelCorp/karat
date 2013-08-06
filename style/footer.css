@@ -2,46 +2,69 @@ body{
 	background-color: #00101a
 }
 
-.footer{
-	background: url(images/footer-blick.png) 0 0 repeat-x;
+html,body{
+	height:100%;
+	margin: 0;
+}
+
+.flare{
+	width: 1024px;
+	min-height: 100%;
+	margin: 0 auto;
+	margin-bottom: -217px;	
+}
+
+.flare:after{
+	content: "";
+	display: block;
 	height: 217px;
-	position: fixed;
+} 
+.footer{
+	background: url(../images/footer-blick.png) 0 0 repeat-x;
+	height: 217px;
 	bottom: 0;
 	width: 100%;
+	min-width: 1024px;
+	margin-bottom: -500px;
 }
+
+
+
 .footer-content{
 	width: 1074px;
 	margin: 0 auto;
-	height: 82px;
-	margin-top: 135px;
+	height: 100%;	
+	text-align:center;
 }
-.footer-content p {
-	display: inline
+.footer-content p{
+	display: inline;	
 }
 
 .footer-center > p.copyright{
-	line-height: 120px;
 	font-family: arial;
 	font-size: 11pt;
 	color: #162c3a;
 }
 .footer-center{
 	text-align: center;
+	display:inline-block;
+	margin-top: 180px;
 }
 .footer-left{
 	float: left;
-	margin-top: 15px;
+	margin-top: 145px;
 }
 .footer-left > p{
 	margin: 0 0 10px 0;
-	font-family: arial;	
+	font-family: arial;
+	margin-top: 145px;
 }
 
 
 
 .footer-left > p.title-phone{
 	font-size: 11pt;
-	color: #d4f0fd;
+	color: #d4f0fd;	
 }
 
 
