@@ -32,6 +32,12 @@ body
 	float: right;
 	padding-left: 35px;
 	margin-top: 25px;
+	font-size: 12px;
+}
+
+.header .basket a
+{
+	color: #c9e6f9;
 }
 
 .header .language
