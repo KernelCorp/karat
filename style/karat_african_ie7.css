@@ -7,8 +7,9 @@
     padding-bottom: 200px;
 }
 .content{
+    margin-top: 30px;
     width: 1024px;
-    height: 1000px;
+    height: 800px;
 }
 photo-content{
     float: left;
@@ -17,6 +18,7 @@ photo-content{
     zoom: 1;
 }
 h1.title{
+    font-weight: normal;
     color: #ffffff;
     font-size: 2em;
     text-align: left;
@@ -38,7 +40,7 @@ h1.title{
     width: 680px;
 }
 .photo-container{
-    margin-top: 10px;
+    margin-top: 13px;
     float: right;
 
 }
@@ -51,21 +53,19 @@ h1.title{
     font-size: 72%;
 }
 .video-content{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .player-wrapper-left{
     height: 316px;
     width: 476px;
     background-image: url(../images/ytplayer_background.png);
     float: left;
-    margin-top: 40px;
 }
 .player-wrapper-right{
     height: 316px;
     width: 476px;
     background-image: url(../images/ytplayer_background.png);
     float: right;
-    margin-top: 40px;
 }
 #ytplayer{
     margin-top: 17px;

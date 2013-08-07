@@ -29,16 +29,17 @@ h1.title{
 }
 .text-container{
     float: right;
-    margin-top: 25px;
+    margin-top: 13px;
     color: #ffffff;
     text-align: left;
     font-size: 72%;
 }
 .text-wrapper{
+
+    padding: 0;
     width: 680px;
 }
 .photo-container{
-    margin-top: 10px;
     float: right;
 
 }

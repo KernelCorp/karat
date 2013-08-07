@@ -8,7 +8,7 @@
 }
 .content{
     width: 1024px;
-    height: 1000px;
+    height: 800px;
 }
 photo-content{
     float: left;
@@ -21,15 +21,15 @@ h1.title{
     text-align: left;
     clear: both;
     width: 1024px;
+    font-weight: normal;
 }
 .diploma-container{
     float: left;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 .text-container{
-    padding-left: 20px;
     float: right;
-    margin-top: 25px;
+    margin-top: 0px;
     color: #ffffff;
     text-align: left;
     font-size: 72%;
@@ -49,22 +49,19 @@ h1.title{
     text-align: center;
     font-size: 72%;
 }
-.video-content{
-    margin-top: 30px;
-}
 .player-wrapper-left{
     height: 316px;
     width: 476px;
     background-image: url(../images/ytplayer_background.png);
     float: left;
-    margin-top: 40px;
+    margin-top: -20px;
 }
 .player-wrapper-right{
     height: 316px;
     width: 476px;
     background-image: url(../images/ytplayer_background.png);
     float: right;
-    margin-top: 40px;
+    margin-top: -20px;
 }
 #ytplayer{
     margin-top: 17px;
