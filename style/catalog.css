@@ -52,6 +52,8 @@
 
 .params > ul.shapes > li {
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	margin-right: 10px;
 	margin-bottom: 20px;
 	width: 50px;
@@ -73,6 +75,8 @@
 
 .params > .dropdowns_wrapper > .dropdown {
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	width: 48%;
 }
 
@@ -83,6 +87,8 @@ ul.products
 	list-style: none;
 	text-align: center;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 }
 
 ul.products > li.product
@@ -90,6 +96,8 @@ ul.products > li.product
 	background-image: url('../images/main_page_4_select_background.png');
 	background-repeat: no-repeat;
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	width: 231px;
 	height: 310px;
 	margin-right: 20px;
@@ -183,6 +191,8 @@ ul.paginator {
 
 ul.paginator > li {
 	display: inline-block;
+	zoom: 1;
+	*display: inline;
 	font-size: 11px;
 	font-family: tahoma;
 	padding: 4px 8px;
