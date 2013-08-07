@@ -1,0 +1,154 @@
+body
+{
+	background-color : #00101b;
+	background-image: url('../images/main_page_fon.jpg');
+	background-repeat: no-repeat;
+	background-position: center -320px;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+.container
+{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: normal;
+}
+
+div.details
+{
+	border: none;
+	padding: 20px;
+}
+
+div.total
+{
+	padding: 20px;
+}
+
+table.details
+{
+	border-collapse: collapse;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 16px;
+	width: 100%;
+	margin: 0 auto;
+	margin-left: 0px;	
+	
+}
+
+table.details .total
+{
+	text-align: right;
+}
+
+table.details td
+{
+	padding: 10px;
+}
+
+
+
+table.details .image_example
+{
+	background-image: url('../images/light_fon.png');
+	background-repeat: no-repeat;
+	height: 179px;
+	width: 229px;
+	margin-right: 30px;	
+	zoom: 0.4;
+}
+
+table.details .image_example img
+{
+	padding: 30px 0 0 10px;
+}
+
+.details thead tr th
+{
+	border-bottom: 1px solid #13385d;
+	font-weight: normal;
+	padding: 10px 0;
+}
+
+.details .description
+{
+	text-align: left;
+}
+
+.details .total,
+.details .cost
+{
+	width: 240px;
+}
+
+.client_info caption
+{
+	font-size: 20px;
+	text-align: left;
+	padding: 20px 0;
+}
+
+.client_info th
+{
+	text-align: right;
+	font-weight: normal;
+	padding-right: 20px;
+}
+
+.details .bottom_border
+{
+	background-image: url('../images/details_bottom_border.png');
+	background-repeat: no-repeat;
+	height: 30px;
+	margin: 0 -20px -20px 0px;
+}
+
+.details .top_border
+{
+	background-image: url('../images/details_top_border.png');
+	background-repeat: no-repeat;
+	height: 30px;
+	margin: 0px -20px -20px 0;
+}
+
+.table_border
+{
+	width: 939px;
+	border-left: 1px solid #0c71c0;
+	border-right: 1px solid #0c71c0;
+	padding: 0 20px;
+}
+
+
+.basket_confirm_button
+{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: tahoma;
+	text-decoration: none;
+	text-align: center;
+	background-image: url('../images/button_background.png');
+	background-repeat: no-repeat;
+	padding-top: 6px;
+	width: 176px;
+	height: 32px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,192 @@
+body
+{
+	background-color : #00101b;
+	background-image: url('../images/main_page_fon.jpg');
+	background-repeat: no-repeat;
+	background-position: center -320px;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+.container
+{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: normal;
+}
+
+sup.required
+{
+	color: #dab104;
+	font-size: 14px;
+}
+
+.private_office
+{
+	color: #869ca5;
+	font-family: Arial;
+	font-size: 14px;		
+	margin: 0 auto;
+	width: 800px;
+	height: 550px;
+}
+
+.private_office h1
+{
+	color: #ffffff;
+}
+
+.private_office .left_column,
+.private_office .right_column
+{
+	width: 380px;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.private_office .left_column
+{
+	margin-right: 34px;
+	float: left;
+}
+
+.private_office .photo_button
+{
+	background: transparent;
+	border: none;
+	color: #869ca5;
+	cursor: pointer;
+	margin: 4px;
+	margin-top: -8px;
+}
+
+.private_office  label
+{
+	display: block;
+	margin: 3px 0;
+}
+
+.private_office input[type='text'],
+.private_office .avatar
+{
+	width: 338px;
+	height: 27px;
+	display: block;
+	
+	color: #ffffff;
+	
+	padding: 10px 10px 2px;
+
+	background-image: url('../images/input_background_long.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;	
+	box-shadow: none;
+}
+
+.private_office input[type='text']:focus
+{
+	border-color: #ffffff;
+	outline:none;
+}
+
+.private_office .avatar
+{
+	width: 127px;
+	height: 160px;
+	overflow: hidden;
+	padding: 5px;
+	background-image: url('../images/avatar_background.png');
+	background-color: transparent;
+	background-repeat: no-repeat;
+}
+
+.private_office .avatar img
+{
+	width: 126px;
+	height: 160px;
+}
+
+.private_office .street
+{
+	display: inline-block;
+	width: 236px;
+	margin-right: 10px;
+	float: left;	
+}
+.private_office .street input
+{
+	width: 236px;
+	background-image: url('../images/input_background_street.png');
+}
+
+.private_office input.short
+{
+	width: 95px;
+	background-image: url('../images/input_background_short.png');
+}
+
+.private_office .house,
+.private_office .corpus,
+.private_office .office
+{
+	display: inline-block;
+	width: 110px;
+	float: left;
+}
+
+.private_office .bottom
+{
+	text-align: right;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	height: 40px;
+	width: 800px;
+}
+
+.private_office .text_ruqired
+{	
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 340px;
+	float: left;
+}
+
+.details .description
+{
+	padding-left: 40px;
+}
+
+.basket_confirm_button
+{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: tahoma;
+	text-decoration: none;
+	text-align: center;
+	background-image: url('../images/button_background.png');
+	background-repeat: no-repeat;
+	padding-top: 6px;
+	width: 176px;
+	height: 32px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+

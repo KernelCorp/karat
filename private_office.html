@@ -4,11 +4,13 @@
 		<meta charset='utf-8'>
 		<link rel="stylesheet" href="./style/header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />
-		<link rel="stylesheet" href="./style/confirm_zakaza.css" type="text/css" />				
+		<link rel="stylesheet" href="./style/private_office.css" type="text/css" />
+		<link rel="stylesheet" href="./style/confirm_zakaza.css" type="text/css" />
 		<!--[if (gte IE 7)]>
 		<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer-ie7.css" type="text/css" />
-		<link rel="stylesheet" href="./style/ie_confirm_zakaza.css" type="text/css" />		
+		<link rel="stylesheet" href="./style/ie_private_office.css" type="text/css" />
+		<link rel="stylesheet" href="./style/ie_confirm_zakaza.css" type="text/css" />
 		<![endif]-->
 	</head>
 	<body>
@@ -46,8 +48,64 @@
 		
 		
 		
-		<div class='container'>
-			<h1>Подтверждение заказа</h1>
+		<div class='container'>			
+			<div class='private_office'>
+				<h1>Личный кабинет</h1>
+				<div class='left_column'>
+					<button class='photo_button'>Загрузить фото</button>
+					<div class='avatar'>
+						<img src='./images/default_avatar.png'/>
+					</div>
+					<label for='last_name'>Фамилия:<sup class='required'>*</sup></label>
+					<input id='last_name' type='text'/>
+					
+					<label for='first_name'>Имя:<sup class='required'>*</sup></label>
+					<input id='first_name' type='text'/>
+					
+					<label for='patronymic'>Отчество:<sup class='required'>*</sup></label>
+					<input id='patronymic' type='text'/>								
+				</div>
+				
+				<div class='right_column'>
+					<label for='email'>E-mail:<sup class='required'>*</sup></label>
+					<input id='email' type='text'/>
+					
+					<label for='new_password'>Сменить пароль:</label>
+					<input id='new_password' type='text'/>
+					
+					<label for='new_password'>Регион:</label>
+					<input id='new_password' type='text'/>
+					
+					<label for='new_password'>Населенный пункт:</label>
+					<input id='new_password' type='text'/>
+					
+					<div class='street'>
+						<label for='new_password'>Улица:</label>
+						<input type='text' id='new_password'/>
+					</div>
+					<div class='house'>
+						<label for='new_password'>Дом:</label>
+						<input id='new_password' type='text' class='short'/>
+					</div>
+					<div class='corpus'>
+						<label for='new_password'>Корпус:</label>
+						<input id='new_password' type='text' class='short'/>
+					</div>
+					<div class='office'>
+						<label for='new_password'>Кабинет/Офис:</label>
+						<input id='new_password' type='text' class='short'/>
+					</div>									
+				</div>
+				<div class='bottom'>
+					<div class='text_ruqired'>
+						<sup class='required'>*</sup> 
+						поля обязательны для заполнения
+					</div>
+					<a href='#' class='basket_confirm_button'>Изменить</a>
+				</div>
+			</div>			
+			
+			<h1>История покупок</h1>
 			<div class='details'>
 				<!--[if (gte IE 7)]>
 				<div class='top_border'>
@@ -56,67 +114,47 @@
 				<![endif]-->
 				<table class='details'>			
 					<thead>
-						<tr>
-							<th> </th>
+						<tr>							
 							<th>Наименование</th>
 							<th>Количество</th>
 							<th>Цена</th>
+							<th>Дата</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td>
-								<div class='image_example'>
-									<img src="./images/gallery/brilliant_1.png" alt="image01" />
-								</div>
-							</td>
 							<td class='description'>Бриллиант круглой огранки "Кр-57"</td>
 							<td>1</td>
 							<td class='cost'><span class='number'>231 000</span> USD</td>
+							<td>16.04.2013</td>
 						</tr>
 						
 						<tr>
-							<td>
-								<div class='image_example'>
-									<img src="./images/gallery/brilliant_1.png" alt="image01" />
-								</div>
-							</td>
 							<td class='description'>Бриллиант круглой огранки "Кр-57"</td>
 							<td>1</td>
 							<td class='cost'><span class='number'>231 000</span> USD</td>
+							<td>16.04.2013</td>
 						</tr>
 						
 						<tr>
-							<td>
-								<div class='image_example'>
-									<img src="./images/gallery/brilliant_1.png" alt="image01" />
-								</div>
-							</td>
 							<td class='description'>Бриллиант круглой огранки "Кр-57"</td>
 							<td>1</td>
 							<td class='cost'><span class='number'>231 000</span> USD</td>
+							<td>16.04.2013</td>
 						</tr>
 						
 						<tr>
-							<td>
-								<div class='image_example'>
-									<img src="./images/gallery/brilliant_1.png" alt="image01" />
-								</div>
-							</td>
 							<td class='description'>Бриллиант круглой огранки "Кр-57"</td>
 							<td>1</td>
 							<td class='cost'><span class='number'>231 000</span> USD</td>
+							<td>16.04.2013</td>
 						</tr>
 						
 						<tr>
-							<td>
-								<div class='image_example'>
-									<img src="./images/gallery/brilliant_1.png" alt="image01" />
-								</div>
-							</td>
 							<td class='description'>Бриллиант круглой огранки "Кр-57"</td>
 							<td>1</td>
 							<td class='cost'><span class='number'>231 000</span> USD</td>
+							<td>16.04.2013</td>
 						</tr>
 						
 						
@@ -128,48 +166,7 @@
 				</div>
 				<![endif]-->
 			</div>
-			<div class='total'>
-				<table class='details'>			
-					<tbody>
-						<tr>
-							<td> </td>
-							<td class='description'> </td>
-							<td class='total'>Общая сумма:</td>
-							<td class='cost'><span class='number'>231 000</span> USD</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
 			
-			
-			<table class='client_info'>
-				<caption>Контактные данные:</caption>
-				<tbody>
-					<tr>
-						<th>ФИО:</th>
-						<td>Иванов Иван Иваныч</td>
-					</tr>
-					<tr>
-						<th>ТЕЛЕФОН:</th>
-						<td>+7 123 456 78 90</td>
-					</tr>
-					<tr>
-						<th>E-mail:</th>
-						<td>Ivanov@mail.ru</td>
-					</tr>
-					<tr>
-						<th>Адрес:</th>
-						<td>Московская область, г. Москва, ул. Ленина 24а, оф. 515.</td>
-					</tr>
-					<tr>
-						<th>Способ доставки:</th>
-						<td>Самовывоз</td>
-					</tr>
-					
-				</tbody>
-			</table>
-
-			<a href='#' class='basket_confirm_button'>Подтвердить</a>
 		</div>
 		
 		

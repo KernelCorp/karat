@@ -1,0 +1,186 @@
+body
+{
+	background-color : #00101b;
+	background-image: url('../images/main_page_fon.jpg');
+	background-repeat: no-repeat;
+	background-position: center -320px;
+	font-family: Arial;
+	color: #ffffff;
+}
+
+.container
+{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: normal;
+}
+
+sup.required
+{
+	color: #dab104;
+	font-size: 14px;
+}
+
+.private_office
+{
+	color: #869ca5;
+	font-family: Arial;
+	font-size: 14px;		
+	margin: 0 auto;
+	width: 800px;
+}
+
+.private_office h1
+{
+	color: #ffffff;
+}
+
+.private_office .left_column,
+.private_office .right_column
+{
+	width: 380px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.private_office .left_column
+{
+	margin-right: 34px;
+}
+
+.private_office .photo_button
+{
+	background: transparent;
+	border: none;
+	color: #869ca5;
+	cursor: pointer;
+	margin: 4px;
+	margin-top: -8px;
+}
+
+.private_office  label
+{
+	display: block;
+	margin: 6px 0;
+}
+
+.private_office input[type='text'],
+.private_office .avatar
+{
+	width: 334px;
+	height: 26px;
+	display: block;
+	
+	color: #ffffff;
+	
+	padding: 2px 8px;
+
+	background-color: #0e233e;
+	background-color: rgba(14, 35, 62, 0.7);
+	border: 1px solid #6ba5c2;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ie-border-radius: 5px;
+	border-radius: 5px;
+	
+	-o-box-shadow: 0 0 5px #6ba5c2; 
+	-moz-box-shadow: 0 0 5px #6ba5c2; 
+	-webkit-box-shadow: 0 0 5px #6ba5c2; 
+	-ie-box-shadow: 0 0 5px #6ba5c2; 	
+	box-shadow: 0 0 5px #6ba5c2; 
+}
+
+.private_office input[type='text']:focus
+{
+	border-color: #ffffff;
+	outline:none;
+}
+
+.private_office .avatar
+{
+	width: 127px;
+	height: 160px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.private_office .avatar img
+{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.private_office .street
+{
+	display: inline-block;
+	width: 236px;
+	margin-right: 10px;
+}
+.private_office .street input
+{
+	width: 219px;
+}
+
+.private_office input.short
+{
+	width: 84px;
+}
+
+.private_office .house,
+.private_office .corpus,
+.private_office .office
+{
+	display: inline-block;
+	width: 110px;
+}
+
+.private_office .bottom
+{
+	text-align: right;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.private_office .text_ruqired
+{	
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+.details .description
+{
+	padding-left: 40px;
+}
+
+.basket_confirm_button
+{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: tahoma;
+	text-decoration: none;
+	text-align: center;
+	background-image: url('../images/button_background.png');
+	background-repeat: no-repeat;
+	padding-top: 6px;
+	width: 176px;
+	height: 32px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
