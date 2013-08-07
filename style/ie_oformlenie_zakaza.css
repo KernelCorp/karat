@@ -10,7 +10,7 @@ body
 
 .container
 {
-	width: 1024px;
+	width: 980px;
 	margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6
 .basket_elem
 {
 	height: 181px;
-	width: 1024px;
+	width: 981px;
 	border: none;
 	background-image: url('../images/ie_basket_page_border.png');
 	background-repeat: no-repeat;
