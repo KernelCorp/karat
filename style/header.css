@@ -5,6 +5,10 @@ body
 	font-weight: normal;
 }
 
+.flare{	
+	background: url(../images/body-background.png) -140px -8px no-repeat;		
+}
+
 .header .info
 {
 	height: 70px;

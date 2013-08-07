@@ -15,9 +15,16 @@ $('.dropdowns_wrapper select').each(function() {
 
 	// Cache the styled div
 	var $styledSelect = $this.next('div.styledSelect');
+	
+	// Try to do
+	$styledSelect.append('<p></p>')
+	$styledSelect.append('<div class="corner"></div>');
+	$styledSelect.append('<div class="selectArrow"></div>');
+
+	var $styledText = $styledSelect.children('p');
 
 	// Show the first select option in the styled div
-	$styledSelect.text($this.children('option').eq(0).text());
+	$styledText.text($this.children('option').eq(0).text());
 
 	// Insert an unordered list after the styled div and also cache the list
 	var $list = $('<ul/>', {
@@ -48,7 +55,7 @@ $('.dropdowns_wrapper select').each(function() {
 	// Updates the select element to have the value of the equivalent option
 	$listItems.click(function(e) {
 		e.stopPropagation();
-		$styledSelect.text($(this).text()).removeClass('active');
+		$styledText.text($(this).text()).removeClass('active');
 		$this.val($(this).attr('rel'));
 		$list.hide();
 		/* alert($this.val()); Uncomment this for demonstration! */
