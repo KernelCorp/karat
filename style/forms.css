@@ -1,0 +1,96 @@
+
+.form
+{
+	font-family: Arial;
+	font-size: 14px;	
+	width: 980px;
+}
+
+.form fieldset
+{
+	border: none;
+}
+
+.form h1
+{
+	font-size: 28px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #1a3442;
+}
+
+.form label
+{
+	display: block;
+	margin: 6px 0;
+	color: #869ca5;
+}
+
+.form input[type='text'],
+.form textarea
+{
+	width: 334px;
+	height: 26px;
+	display: block;
+	
+	color: #ffffff;
+	
+	padding: 2px 8px;
+
+	background-color: #0e233e;
+	background-color: rgba(14, 35, 62, 0.7);
+	border: 1px solid #6ba5c2;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ie-border-radius: 5px;
+	border-radius: 5px;
+	
+	-o-box-shadow: 0 0 5px #6ba5c2; 
+	-moz-box-shadow: 0 0 5px #6ba5c2; 
+	-webkit-box-shadow: 0 0 5px #6ba5c2; 
+	-ie-box-shadow: 0 0 5px #6ba5c2; 	
+	box-shadow: 0 0 5px #6ba5c2; 
+}
+
+.form input[type='text']:focus,
+.form textarea:focus
+{
+	border-color: #ffffff;
+	outline:none;
+}
+
+
+.form .bottom
+{
+	text-align: right;
+	margin-top: 40px;
+	margin-bottom: 80px;
+}
+
+.form .text_ruqired
+{	
+	display: inline-block;
+	margin-top: 15px;
+	margin-right: 20px;
+	color: #869ca5;
+}
+
+.form .confirm_button
+{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: tahoma;
+	text-decoration: none;
+	text-align: center;
+	background: url('../images/button_background.png');
+	background-repeat: no-repeat;
+	border: none;
+	padding-top: 0px;
+	width: 176px;
+	height: 32px;
+	display: inline-block;
+	float: right;
+	margin-top: 10px;
+	cursor: pointer;
+}
+

@@ -10,7 +10,7 @@ body
 
 .container
 {
-	width: 1024px;
+	width: 980px;
 	margin: 0 auto;
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6
 div.details
 {
 	border: none;
-	padding: 20px;
+	padding: 0px;
 }
 
 div.total
