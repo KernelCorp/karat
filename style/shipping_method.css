@@ -1,0 +1,180 @@
+.flare{	
+	background: url(../images/body-background.png) -140px -8px no-repeat;		
+}
+
+.content > .left{
+	float: left;
+}
+
+.content > .right{
+	float: right;
+	text-align: left;
+	width: 550px;
+}
+
+div.content input{
+	font-size: 13pt;
+	font-weight: normal;
+}
+
+.content  input.large{
+	background: url(../images/input-skin.png) 0 0 no-repeat;
+	border-width: 0;
+	width: 326px;
+	height: 33px;
+	padding: 0 15px 3px 3px;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+}
+
+.content  input.large:focus{
+	outline: none;
+	background: url(../images/input-skin-focus.png) 0 0 no-repeat;
+}
+
+.content  input.middle{
+	background: url(../images/input_middle.png) 0 0 no-repeat;
+	border-width: 0;
+	width: 223px;
+	height: 33px;
+	padding: 0 5px 3px 3px;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+}
+
+.content  input.middle:focus{
+	outline: none;
+	background: url(../images/input_middle_focus.png) 0 0 no-repeat;
+}
+
+.content  input.small{
+	background: url(../images/input_small.png) 0 0 no-repeat;
+	border-width: 0;
+	width: 82px;
+	height: 33px;
+	padding: 0 15px 3px 3px;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+}
+
+.content  input.small:focus{
+	outline: none;
+	background: url(../images/input_small_focus.png) 0 0 no-repeat;
+}
+
+div.left > div.street-group > input.street{
+	margin-right: 10px;
+}
+
+.building-group{
+	width: 115px;
+}
+
+.content  textarea.textarea{
+	background: url(../images/additional_information_textarea.png) 0 -1px no-repeat;
+	border-width: 0;
+	width: 328px;
+	height: 91px;
+	font-size: 13pt;
+	color: #869ba7;
+	padding: 5px 0 3px 4px;
+	margin: 10px 0 10px 0;
+	overflow: hidden;
+	resize: none;
+	font-weight: normal;
+	font-family: "Arial";
+}
+
+.content  textarea.textarea:focus{
+	outline: none;
+	background: url(../images/additional_information_textarea.png) 0 -100px no-repeat;
+}
+
+
+.street-group{
+	float: left;
+}
+
+.building-group{
+	float: right;	
+}
+
+.housing-group{
+	float: left;	
+}
+
+.office-group{
+	float: right;
+	width: 445px;
+}
+
+.content > .title{
+	font-size: 30pt;
+	color: #ffffff;
+}
+
+.content label{
+	font-size: 9pt;
+	color: #869ba7;
+}
+
+.content sup{
+	color: #a88a0c
+}
+
+.content .submit{
+	display: inline;
+	background: url(../images/kontact-data-submit.png) -1px -1px no-repeat;
+	border-width: 0;
+	width: 123px;
+	height: 34px;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #ffffff;
+	cursor: pointer;
+	margin-top: 15px;
+	line-height: 30px;
+}
+
+.content .submit:hover{
+	background: url(../images/kontact-data-submit-hover.png) -1px -1px no-repeat;
+	cursor: pointer;
+}
+
+.content .submit:active{
+	background: url(../images/kontact-data-submit-active.png) -1px -1px no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	cursor: pointer;
+}
+
+
+.content .hint{
+	display: inline;
+	margin-right: 10px;
+	font-size: 9pt;
+	color: #99afb5;
+}
+
+
+.content{
+	min-height: 300px;
+}
+
+.text-container p.text{
+	display: inline-block;
+	color: #586c76;
+	font-size: 9pt;
+}
+
+.text-container a.shipping-information{
+	display: inline-block;
+	color: #cce5ec;
+	font-size: 9pt;
+}
+
+.text-container a.shipping-information:hover{
+	display: inline-block;
+	color: #9dd8e9;
+	font-size: 9pt;
+}

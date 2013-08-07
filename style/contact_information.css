@@ -18,7 +18,7 @@
 	width: 326px;
 	height: 33px;
 	padding: 0 15px 3px 3px;
-	font-size: 15pt;
+	font-size: 13pt;
 	color: #869ba7;
 	margin: 10px 0 10px 0;
 }
@@ -34,7 +34,7 @@
 }
 
 .content label{
-	font-size: 13pt;
+	font-size: 9pt;
 	color: #869ba7;
 }
 
@@ -79,5 +79,4 @@
 
 .content{
 	min-height: 300px;
-	margin-top: -60px;
 }
