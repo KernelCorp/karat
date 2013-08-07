@@ -1,18 +1,26 @@
 .body {
-	width: 980px;
+	width: 1000px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .params {
 	width: 220px;
+	height: 500px;
+	background-color: #fff;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
-ul.products,
+ul.products
 {
-	margin: 0;
+	margin: 0 0 0 250px;
 	padding: 0;
 	list-style: none;
 	text-align: center;
+	display: inline-block;
 }
 
 ul.products > li.product
@@ -59,6 +67,7 @@ ul.products > li.product > table th
 	text-align: right;
 	color: #ffffff;
 	font-weight: normal;
+	padding: 0;
 }
 
 ul.products > li.product > table td
@@ -97,13 +106,17 @@ ul.products > li.product > .certificate
 	width: 119px;
 	height: 24px;
 	display: block;
+	margin: 0 auto 9px;
+}
+
+.paginator_wrapper {
+	display: block;
 	margin: 0 auto;
+	width: auto;
 }
 
 ul.paginator {
-	margin: 0 auto;
 	list-style: none;
-	display: block;
 }
 
 ul.paginator > li {
@@ -112,7 +125,7 @@ ul.paginator > li {
 	font-family: tahoma;
 	padding: 4px 8px;
 	border-radius: 7px;
-	background-color: #aaaaff;
+	background-color: #546e7a;
 	color: white;
 	margin-right: 7px;
 }
