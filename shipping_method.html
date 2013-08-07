@@ -4,13 +4,13 @@
 		<meta charset='utf-8'>
 		<link rel="stylesheet" href="./style/header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />		
-		<link rel="stylesheet" href="./style/kontact_information.css" type="text/css" />					
+		<link rel="stylesheet" href="./style/shipping_method.css" type="text/css" />					
 		<!--[if (gte IE 7)]>
 			<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
 			<link rel="stylesheet" type="text/css" href="./style/footer-ie7.css">
-			<link rel="stylesheet" type="text/css" href="./style/kontact_information-ie7.css">
+			<link rel="stylesheet" type="text/css" href="./style/shipping_method-ie7.css">
 			<script type="text/javascript" src="./js/jquery.min.js"></script>
-			<script type="text/javascript" src="./js/kontact_information-ie7.js"></script>	
+			<script type="text/javascript" src="./js/shipping_method.js"></script>	
 		<![endif]-->
 	</head>
 	<body onload="javascript:onbody()">
@@ -46,31 +46,55 @@
 				</div>
 			</div>
 			<div class="content">
-				<h1 class="title"> Оформление заказа</h1>
+				<h1 class="title"> Способ доставки</h1>
 				<div class="left">
-					<label>Фамилия<sup>*</sup></label>
+					<label>Регион:<sup>*</sup></label>
 					<br>
-					<input class="last-name">
+					<input class="region large">
 					<br>
-					<label>Имя<sup>*</sup></label>
+					<label>Населенный пункт:<sup>*</sup></label>
 					<br>
-					<input class="name">
-					<br>	
-					<label>Отчество<sup>*</sup></label>
+					<input class="city large">
 					<br>
-					<input class="middle-name">
+					<div class="street-group">	
+						<label>Улица:<sup>*</sup></label>
+						<br>
+						<input class="street middle">
+					</div>
+					<div class="building-group">	
+						<label>Дом:<sup>*</sup></label>
+						<br>
+						<input class="building small">
+					</div>	
 				</div>
 				<div class="right">
-					<label>E-mail<sup>*</sup></label>
+					<div class = "housing-group">
+						<label>Корпус:</label>
+						<br>
+						<input class="housing small">
+					</div>	
+					<div class="office-group">
+						<label>Кабинет/Офис:</label>
+						<br>
+						<input class="office small">
+					</div>
 					<br>
-					<input class="e-mail">
+					<label>Дополнительная информация</label>
 					<br>
-					<label>Телефон<sup>*</sup></label>
-					<br>
-					<input class="phone">
+					<div class="textarea-wrap">
+						<textarea class="additional-information textarea"></textarea>
+					</div>	
 					<br>
 					<p class="hint"><sup>*</sup> поля обязательны для заполнения</p>
 					<button class="submit">Далее</button>
+				</div>
+				<br>
+				<div class="text-container">
+					<p class="text">По Москве и области только самовывоз, в другие регионы России спец.связью
+					(Если сумма покупки от 50 тыс. и выше, пересылка Спец. Связью осуществляется за счет ООО «КАРАТ».
+					До 50 тыс. Услуги Спец.Связи олачивает клиент). </p>
+					<br>
+					<a href = "#" class="shipping-information">Условия и стоимость доставки.</a>
 				</div>
 			</div>
 		</div>	
