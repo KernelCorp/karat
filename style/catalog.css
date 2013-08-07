@@ -1,17 +1,79 @@
 .body {
 	width: 1000px;
-	margin: 0 auto;
+	margin: 40px auto 0;
 	position: relative;
 }
 
 .params {
-	width: 220px;
-	height: 500px;
+	width: 190px;
+	padding: 15px;
 	background-color: #fff;
+	text-align: center;
 	display: block;
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+.params > * {
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 15px;
+	margin-top: 15px;
+}
+
+.params > .find_button {
+	border-bottom: 0;
+	text-transform: uppercase;
+	background-image: url('../images/button-find.png');
+	text-align: center;
+	color: white;
+	width: 190px;
+	height: 34px;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Arial;
+	line-height: 34px;
+	margin-top: 13px;
+	padding-bottom: 0;
+}
+
+.params > h4 {
+	color: #687d87;
+	margin: 0;
+	padding-top: 10px
+}
+
+.params > ul.shapes {
+	margin: 0;
+	padding: 15px 0 0 0;
+	list-style: none;
+	text-align: center;
+}
+
+.params > ul.shapes > li {
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.params > ul.shapes > li.endline {
+	margin-right: 0;
+}
+
+.params > .dropdowns_wrapper {
+	text-align: left;
+}
+
+.params > .dropdowns_wrapper p {
+	padding: 0;
+	margin: 0;
+}
+
+.params > .dropdowns_wrapper > .dropdown {
+	display: inline-block;
+	width: 48%;
 }
 
 ul.products
@@ -132,4 +194,72 @@ ul.paginator > li {
 
 ul.paginator > li.last {
 	margin-right: 0;
+}
+
+.s-hidden {
+	padding-right:10px;
+}
+
+.select {
+	cursor:pointer;
+	display:inline-block;
+	position:relative;
+	font:normal 11px/22px Arial,Sans-Serif;
+	color:black;
+	border:1px solid #ccc;
+}
+
+.styledSelect {
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background-color:white;
+	padding:0 10px;
+	font-weight:bold;
+}
+
+.styledSelect:after {
+	content:"";
+	width:0;
+	height:0;
+	border:5px solid transparent;
+	border-color:black transparent transparent transparent;
+	position:absolute;
+	top:9px;
+	right:6px;
+}
+
+.styledSelect:active,
+.styledSelect.active {
+	background-color:#eee;
+}
+
+.options {
+	display:none;
+	position:absolute;
+	top:100%;
+	right:0;
+	left:0;
+	z-index:999;
+	margin:0 0;
+	padding:0 0;
+	list-style:none;
+	border:1px solid #ccc;
+	background-color:white;
+	-webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+	box-shadow:0 1px 2px rgba(0,0,0,0.2);
+}
+
+.options li {
+	padding:0 6px;
+	margin:0 0;
+	padding:0 10px;
+}
+
+.options li:hover {
+	background-color:#39f;
+	color:white;
 }
