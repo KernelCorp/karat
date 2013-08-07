@@ -1,0 +1,122 @@
+.body {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.params {
+	width: 220px;
+}
+
+ul.products,
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+ul.products > li.product
+{
+	background-image: url('../images/main_page_4_select_background.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 231px;
+	height: 310px;
+	margin-right: 20px;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+ul.products > li.product.endline
+{
+	margin-right: 0;
+}
+
+ul.products > li.product > h5
+{
+	margin: 5px 25px;
+	text-align: center;
+	color: #133d60;
+	font-weight: bold;
+	min-height: 32px;
+}
+
+ul.products > li.product > .image
+{
+	width: 230px;
+	height: 140px;
+	text-align: center;
+}
+
+ul.products > li.product > table
+{
+	margin: 0 auto;
+	font-size: 12px;
+}
+
+ul.products > li.product > table th
+{
+	text-align: right;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+ul.products > li.product > table td
+{
+	text-align: left;
+	color: #0b6fbc;
+}
+
+ul.products > li.product .cost
+{
+	margin: 0px 20px 7px;
+	padding: 3px 0;
+	border-top: 1px solid #153c61;
+	border-bottom: 1px solid #153c61;
+	font-size: 14px;
+	font-family: tahoma;
+	color: #0b6fbc;
+	text-align: center;
+}
+
+ul.products > li.product .cost .number
+{
+	font-size: 18px;
+}
+
+ul.products > li.product > .certificate
+{
+	color: #ffffff;
+	font-size: 16px;
+	font-family: tahoma;
+	text-decoration: none;
+	text-align: center;
+	background-image: url('../images/main_page_button_certificate.png');
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	width: 119px;
+	height: 24px;
+	display: block;
+	margin: 0 auto;
+}
+
+ul.paginator {
+	margin: 0 auto;
+	list-style: none;
+	display: block;
+}
+
+ul.paginator > li {
+	display: inline-block;
+	font-size: 11px;
+	font-family: tahoma;
+	padding: 4px 8px;
+	border-radius: 7px;
+	background-color: #aaaaff;
+	color: white;
+	margin-right: 7px;
+}
+
+ul.paginator > li.last {
+	margin-right: 0;
+}
