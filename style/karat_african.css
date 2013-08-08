@@ -7,6 +7,7 @@
     padding-bottom: 200px;
 }
 .content{
+    margin-top: 30px;
     width: 1024px;
     height: 800px;
 }
@@ -22,14 +23,15 @@ h1.title{
     clear: both;
     width: 1024px;
     font-weight: normal;
+    padding-left: 0px;
 }
 .diploma-container{
     float: left;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .text-container{
     float: right;
-    margin-top: 0px;
+    margin-top: -10px;
     color: #ffffff;
     text-align: left;
     font-size: 72%;
@@ -41,6 +43,9 @@ h1.title{
     margin-top: 3px;
     float: right;
 
+}
+.video-content{
+    margin-top: -5px;
 }
 .comment{
     color: #ffffff;
