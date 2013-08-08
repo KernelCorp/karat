@@ -91,5 +91,15 @@ var $pl = $("#price_low"),
 	$ph = $("#price_high");
 
 $("#price_low, #price_high").on("focusout", function() {
-	
+	var focuspocus = function() {
+		var pl = parseInt($pl.val().replace(/ /g,'')),
+			ph = parseInt($ph.val().replace(/ /g,''));
+		$("#price_slider").slider("values", 0, pl);
+		$("#price_slider").slider("values", 1, ph);
+		num.setNumber($pl.val());
+		$pl.val(num.toFormatted());
+		num.setNumber($ph.val());
+		$ph.val(num.toFormatted());
+	};
+	setTimeout(focuspocus, 200);	
 })
