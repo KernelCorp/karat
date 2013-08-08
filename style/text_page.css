@@ -1,0 +1,95 @@
+﻿.flare{
+	width: 1024px;
+    min-height: 100%;
+    margin: 0 auto;
+    margin-bottom: -217px;
+    background: url(../images/body-background.png) -140px -8px no-repeat;
+    padding-bottom: 200px;
+	color: #ffffff;
+	#color: #9bb1b7;
+}
+.content{
+    width: 1024px;
+    height: 1000px;	
+}
+.top-text-container{
+	margin-top: -7px;
+	font-size: 74%;
+	text-align: left;	
+}
+.top-text-container p{
+	margin-bottom: 28px;
+	line-height: 1.8;
+}
+.title{
+	font-weight: normal;
+	font-size: 250%	
+}
+.list{
+	margin-top: 43px;
+	padding-left: 0px;
+	list-style-type: square;
+	list-style-position: inside;
+	line-height: 1.8;
+	
+}
+.more-link{
+	float: right;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 120%;
+}
+.items-table-container{
+	margin-top: 45px;
+	margin-bottom: 20px;
+	border: 1px solid #0c71c0;
+	border-radius: 15px;
+	width: 1024px;
+}
+table{
+	text-align: center;
+	width: 1024px;
+	padding: 5px 25px;
+	font-weight: bold;
+}
+.table-head{
+    height: 28px; 
+}
+th{
+	font-size: 60%;
+}
+.name{
+	width: 40%;
+	text-indent: 40px;
+	text-align: left;
+}
+.hname{
+	text-align: left;
+	text-indent: 60px;
+}
+td{
+	height: 40px; 
+}
+.certificate-container{
+	margin-top: 40px;
+	width: 268px;
+	float: left;
+}
+.date{
+	color: #757a7d;
+	font-size: 60%;
+}
+.bottom-text-container{
+	font-size: 80%;
+	margin-top: 22px;
+	width: 696px;
+	float: right;
+}
+.bottom-text-container p{
+	margin-bottom: 35px;
+	line-height: 1.8;
+}
+.info-link{
+	color: #2d5d81;
+	font-size: 74%;
+}
