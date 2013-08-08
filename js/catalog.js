@@ -90,6 +90,6 @@ $("#price_slider").slider({
 var $pl = $("#price_low"),
 	$ph = $("#price_high");
 
-$pl.on("focusout", function() {
-	this
+$("#price_low, #price_high").on("focusout", function() {
+	
 })

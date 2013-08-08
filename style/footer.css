@@ -55,30 +55,29 @@ html,body{
 	margin-top: 145px;
 	text-align: left;
 }
-.footer-left > p{
+.footer-left > p {
 	margin: 0 0 10px 0;
 	font-family: arial;
 	margin-top: 145px;
 }
 
-
-
-.footer-left > p.title-phone{
+.footer-left > p.title-phone {
 	font-size: 9pt;
 	color: #d4f0fd;	
 }
 
 
-.footer-left > p.phone{
+.footer-left > p.phone {
 	font-size: 11pt;
 	color: #d4f0fd;
 }
 
-.footer-left > p.phone-prefix{
+.footer-left > p.phone-prefix {
 	font-size: 11pt;
 	color: #0084cb;
 }
 
-.footer-right{
-	float: right
+.footer-right {
+	float: right;
+	margin-top: 160px;
 }
