@@ -5,9 +5,11 @@
 }
 
 .params {
-	width: 190px;
-	padding: 15px;
-	background-color: #fff;
+	*margin: 5px 0 5px 0;
+	width: 220px;
+	height: 642px;
+	*padding: 15px;
+	*background-color: #fff;
 	text-align: center;
 	display: block;
 	position: absolute;
@@ -15,13 +17,45 @@
 	left: 0;
 }
 
-.params > * {
+.params > div.bottom_gradient {
+	background-image: url('../images/form-container-down.png');
+	background-position: bottom;
+	bottom: 0;
+}
+
+.params > div.top_gradient {
+	background-image: url('../images/form-container-up.png');
+	top: 0;
+	height: 550px !important;
+}
+
+.params > div.top_gradient, .params > div.bottom_gradient {
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.params > .middle_params {
+	position: absolute;
+	top: 7px;
+	width: 190px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.params > .middle_params > * {
 	border-bottom: 1px solid #dedede;
 	padding-bottom: 15px;
 	margin-top: 15px;
 }
 
-.params > .find_button {
+.params .find_button {
 	border-bottom: 0;
 	text-transform: uppercase;
 	background-image: url('../images/button-find.png');
@@ -37,20 +71,31 @@
 	padding-bottom: 0;
 }
 
-.params > h4 {
+.params .find_button a {
+	width: 190px;
+	height: 34px;
+	display: block;
+}
+
+.params a {
+	text-decoration: none;
+	color: white;
+}
+
+.params h4 {
 	color: #687d87;
 	margin: 0;
 	padding-top: 10px
 }
 
-.params > ul.shapes {
+.params ul.shapes {
 	margin: 0;
 	padding: 15px 0 0 0;
 	list-style: none;
 	text-align: center;
 }
 
-.params > ul.shapes > li {
+.params ul.shapes > li {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
@@ -58,35 +103,36 @@
 	margin-bottom: 20px;
 	width: 50px;
 	height: 50px;
+	cursor: pointer;
 }
 
-.params > ul.shapes > li.endline {
+.params ul.shapes > li.endline {
 	margin-right: 0;
 }
 
-.params > .dropdowns_wrapper {
+.params .dropdowns_wrapper {
 	text-align: left;
 }
 
-.params > .dropdowns_wrapper p {
+.params .dropdowns_wrapper p {
 	padding: 0 0;
 	margin: 4px 0;
 	font-size: 12px;
 	color: #546e7a;
 }
 
-.params > .dropdowns_wrapper > .dropdown {
+.params .dropdowns_wrapper > .dropdown {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
 	width: 48%;
 }
 
-.params > .slider_wrapper {
+.params .slider_wrapper {
 	position: relative;
 }
 
-.params > .slider_wrapper #price_slider {
+.params .slider_wrapper #price_slider {
 	height: 2px;
 	background-color: #c2c2c2;
 	margin-top: 6px;
@@ -95,19 +141,29 @@
 	top: 7px;
 }
 
-.params > .slider_wrapper > div.all_price {
+.params .slider_wrapper div.price_border {
+	position: absolute;
+	height: 5px;
+	width: 113px;
+	right: 0;
+	top: 6px;
+	border-left: 1px solid #c2c2c2;
+	border-right: 1px solid #c2c2c2;
+}
+
+.params .slider_wrapper > div.all_price {
 	height: 24px;
 }
 
-.params > .slider_wrapper > div.inline {
+.params .slider_wrapper > div.inline {
 	font-size: 10px;
 }
 
-.params > .slider_wrapper > div.inline > * {
+.params .slider_wrapper > div.inline > * {
 	display: inline;
 }
 
-.params > .slider_wrapper p {
+.params .slider_wrapper p {
 	color: #546e7a;
 	font-size: 12px;
 	display: inline;
@@ -115,7 +171,7 @@
 	padding: 0 5px;
 }
 
-.params > .slider_wrapper input[type="text"] {
+.params .slider_wrapper input[type="text"] {
 	display: inline-block;
 	width: 37px;
 	zoom: 1;
@@ -124,7 +180,7 @@
 	font-size: 10px;
 }
 
-.params > .slider_wrapper div.ok_button {
+.params .slider_wrapper div.ok_button {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
@@ -135,6 +191,7 @@
 	font-size: 11px;
 	color: white;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .ui-widget-overlay {
@@ -194,15 +251,20 @@
 	right: 0;
 }
 
-ul.products
-{
+.products_wrapper {
 	margin: 0 0 0 250px;
 	padding: 0;
-	list-style: none;
-	text-align: center;
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
+}
+
+ul.products
+{
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 ul.products > li.product
@@ -305,6 +367,12 @@ ul.paginator {
 	margin: 0 auto;
 }
 
+ul.paginator a {
+	text-decoration: none;
+	color: white;
+	padding: 0px 9px 5px;
+}
+
 ul.paginator > li {
 	cursor: pointer;
 	display: inline-block;
@@ -312,14 +380,13 @@ ul.paginator > li {
 	*display: inline;
 	font-size: 11px;
 	font-family: tahoma;
-	padding: 5px 9px;
-	border-radius: 7px;
 	background-image: url('../images/small-digit-button.png');
 	background-position: 0 0;
 	color: white;
 	margin-right: 7px;
-	width: 6px;
-	height: 15px;
+	padding-top: 5px;
+	width: 25px;
+	height: 20px;
 }
 
 ul.paginator > li:hover {
@@ -330,53 +397,55 @@ ul.paginator > li.last {
 	margin-right: 0;
 }
 
-img[class^="i"] {
+a[class^="i"] {
 	background-image: url('../images/diamonds.png');
+	display: block;
+	margin: 0 auto;
 }
 
-img.i1 {
+a.i1 {
 	background-position: 0 0;
 	height: 68px;
 	width: 48px;
 }
 
-img.i2 {
+a.i2 {
 	background-position: -48px 0;
 	height: 68px;
 	width: 34px;
 }
 
-img.i3 {
+a.i3 {
 	background-position: -82px 0;
 	height: 68px;
 	width: 32px;
 }
 
-img.i4 {
+a.i4 {
 	background-position: -115px 0;
 	width: 37px;
 	height: 61px;
 }
 
-img.i5 {
+a.i5 {
 	background-position: -151px 0;
 	width: 44px;
 	height: 61px;
 }
 
-img.i6 {
+a.i6 {
 	background-position: -195px 0;
 	width: 33px;
 	height: 61px;
 }
 
-img.i7 {
+a.i7 {
 	background-position: -228px 0;
 	width: 39px;
 	height: 53px;
 }
 
-img.i8 {
+a.i8 {
 	background-position: -267px 0;
 	width: 39px;
 	height: 53px;
