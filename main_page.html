@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />
 		<link rel="stylesheet" href="./style/main_page.css" type="text/css" />		
 		<link rel="stylesheet" href="./style/elastislide.css" type="text/css" />		
+		<link rel="stylesheet" href="./style/jquery.bxslider.css" type="text/css" />		
 		<!--[if ( IE 7)]>
 		<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer-ie7.css" type="text/css" />
@@ -14,6 +15,7 @@
 		<script type="text/javascript" src="./js/jquery.min.js"></script>		
 		<script  type="text/javascript" src="./js/modernizr.custom.17475.js"></script>
 		<script type="text/javascript" src="./js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="./js/jquery.bxslider.js"></script>
 		<script type="text/javascript" src="./js/jquerypp.custom.js"></script>		
 	</head>
 	<body>
@@ -184,7 +186,7 @@
 			</div>
 			<div class='examples_4'>
 				<div class='paginator'>
-					<ul>
+					<ul class='carousel_4'>
 					  <li>
 						<h5>Бриллиант круглой огранки "Кр-57"</h5>
 						<div class='image'>
@@ -266,7 +268,7 @@
 						<a href='#' class='certificate'>Сертификат</a>
 					  </li>
 					  
-					  <li class='last'>
+					  <li>
 						<h5>Бриллиант круглой огранки "Кр-57"</h5>
 						<div class='image'>
 							<img src='./images/gallery/brilliant_4.png'/>
@@ -292,19 +294,138 @@
 						</div>
 						<a href='#' class='certificate'>Сертификат</a>
 					  </li>
+					  
+					  <li>
+						<h5>Бриллиант круглой огранки "Кр-57"</h5>
+						<div class='image'>
+							<img src='./images/gallery/brilliant_1.png'/>
+						</div>
+						<table>
+						  <tbody>
+							<tr>
+							  <th>Вес:</th>
+							  <td>3.02 кар.</td>
+							</tr>
+							<tr>
+							  <th>Цвет:</th>
+							  <td>1(D)</td>
+							</tr>
+							<tr>
+							  <th>Чистота:</th>
+							  <td>2(VVS1)</td>
+							</tr>
+						  </tbody>
+						</table>
+						<div class='cost'>
+						  Цена: <span class='number'>110 000</span> USD
+						</div>
+						<a href='#' class='certificate'>Сертификат</a>
+					  </li>
+					  
+					  <li>
+						<h5>Бриллиант огранки "Кр-53"</h5>
+						<div class='image'>
+							<img src='./images/gallery/brilliant_2.png'/>
+						</div>
+						<table>
+						  <tbody>
+							<tr>
+							  <th>Вес:</th>
+							  <td>3.02 кар.</td>
+							</tr>
+							<tr>
+							  <th>Цвет:</th>
+							  <td>1(D)</td>
+							</tr>
+							<tr>
+							  <th>Чистота:</th>
+							  <td>2(VVS1)</td>
+							</tr>
+						  </tbody>
+						</table>
+						<div class='cost'>
+						  Цена: <span class='number'>110 000</span> USD
+						</div>
+						<a href='#' class='certificate'>Сертификат</a>
+					  </li>
+					  
+					  <li>
+						<h5>Бриллиант огранки "Овал"</h5>
+						<div class='image'>
+							<img src='./images/gallery/brilliant_3.png'/>
+						</div>
+						<table>
+						  <tbody>
+							<tr>
+							  <th>Вес:</th>
+							  <td>3.02 кар.</td>
+							</tr>
+							<tr>
+							  <th>Цвет:</th>
+							  <td>1(D)</td>
+							</tr>
+							<tr>
+							  <th>Чистота:</th>
+							  <td>2(VVS1)</td>
+							</tr>
+						  </tbody>
+						</table>
+						<div class='cost'>
+						  Цена: <span class='number'>110 000</span> USD
+						</div>
+						<a href='#' class='certificate'>Сертификат</a>
+					  </li>
+					  
+					  <li>
+						<h5>Бриллиант круглой огранки "Кр-57"</h5>
+						<div class='image'>
+							<img src='./images/gallery/brilliant_4.png'/>
+						</div>
+						<table>
+						  <tbody>
+							<tr>
+							  <th>Вес:</th>
+							  <td>3.02 кар.</td>
+							</tr>
+							<tr>
+							  <th>Цвет:</th>
+							  <td>1(D)</td>
+							</tr>
+							<tr>
+							  <th>Чистота:</th>
+							  <td>2(VVS1)</td>
+							</tr>
+						  </tbody>
+						</table>
+						<div class='cost'>
+						  Цена: <span class='number'>110 000</span> USD
+						</div>
+						<a href='#' class='certificate'>Сертификат</a>
+					  </li>
+					  
+					  
 								
 					</ul>
 				</div>
-				<div class='navigation'>
-					<ul>
-						<li><a href='#'>&larr; влево</a></li>
-						<li><a href='#'><img src='./images/main_page_navigation_current.png'/></a></li>
-						<li><a href='#'><img src='./images/main_page_navigation.png'/></a></li>
-						<li><a href='#'><img src='./images/main_page_navigation.png'/></a></li>
-						<li><a href='#'>вправо &rarr;</a></li>
-						
-					</ul>
-				</div>        
+				<div class='outside' style='padding-top: 50px;'>
+					<div id='bx-slider-next2'></div>
+					<div id='bx-slider-prev2'></div>
+				</div>
+				<script type="text/javascript">				
+					$('.carousel_4').bxSlider({
+					  slideWidth: 980,
+					  minSlides: 4,
+					  maxSlides: 4,
+					  slideMargin: 10,
+					  moveSlides: 4,					 
+					  nextSelector: '#bx-slider-next',
+					  prevSelector: '#bx-slider-prev',
+					  nextText: 'вправо &rarr;',
+					  prevText: '&larr; влево',
+					  controls: true,
+					  //auto: true,
+					  //pause: 10000,
+					});				</script>				
 			</div>
 			
 			<div class='company_and_news'>
