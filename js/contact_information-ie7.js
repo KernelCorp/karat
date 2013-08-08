@@ -1,9 +1,9 @@
 $(document).ready(function(){
 	$(".content input").focus(function(){
-		$(this).css({"background-image": "url(images/input-skin-focus.png)"});
+		$(this).css({"background": "url(images/input_background_long.png) 0 -40px no-repeat"});
 	});
 	$(".content input").focusout(function(){
-		$(this).css({"background-image": "url(images/input-skin.png)"});
+		$(this).css({"background": "url(images/input_background_long.png) 0 0 no-repeat;"});
 	});
 	$("button.submit").mousedown(function(){
 		$(this).css({"background-image": "url(images/kontact-data-submit-active.png)"});

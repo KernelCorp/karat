@@ -4,15 +4,20 @@
 		<meta charset='utf-8'>
 		<link rel="stylesheet" href="./style/header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />
-		<link rel="stylesheet" href="./style/kontakti_2.css" type="text/css" />
-		<link rel="stylesheet" href="./style/forms.css" type="text/css" />
-		<!--[if IE 7]>
-		<link rel="stylesheet" href="./style/ie_kontakti_2.css" type="text/css" />
+		<link rel="stylesheet" href="./style/kontakti_2.css" type="text/css" />		
+		<!--[if(IE 7)]>
+			<link rel="stylesheet" href="./style/ie_kontakti_2.css" type="text/css" />
+			<script type="text/javascript" src="./js/jquery.min.js"></script>
+			<script type="text/javascript" src="./js/kontakti_2.js"></script>
 		<![endif]-->
+		
+		<!--[if (gte IE 7)]>
+			<link rel="stylesheet" href="./style/kontakti_2-ie7.css" type="text/css" />
+		<![endif]-->
+		
 		<!--[if (IE 7) | (IE 8)]>
 		<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
-		<link rel="stylesheet" href="./style/footer-ie7.css" type="text/css" />
-		<link rel="stylesheet" href="./style/ie_forms.css" type="text/css" />
+		<link rel="stylesheet" href="./style/footer-ie7.css" type="text/css" />		
 		<![endif]-->
 	</head>
 	<body>
@@ -164,18 +169,21 @@
 					
 					<div class='left_column'>						
 						<label for='first_name'>Имя:<sup class='required'>*</sup></label>
-						<input id='first_name' type='text'/>
-						
+						<br>
+						<input id='first_name' class = "large" type='text'/>
+						<br>
 						<label for='email'>E-mail:<sup class='required'>*</sup></label>
-						<input id='email' type='text'/>
+						<input id='email' class = "large" type='text'/>
 						
 						<label for='phone'>Телефон:<sup class='required'>*</sup></label>
-						<input id='phone' type='text'/>								
+						<input id='phone' class = "large" type='text'/>								
 					</div>
 					
 					<div class='right_column'>
 						<label for='message'>Текст сообщения:<sup class='required'>*</sup></label>
-						<textarea id='message'></textarea>
+						<div class="textarea-wrap">
+							<textarea id='message' class="textarea-large"></textarea>
+						</div>
 					</div>
 					
 					<div class='bottom'>
@@ -183,7 +191,7 @@
 							<sup class='required'>*</sup> 
 							поля обязательны для заполнения
 						</div>
-						<input type='submit' class='confirm_button' value='Отправить'>
+						<input type='submit' class='confirm_button submit' value='Отправить'>
 					</div>
 				</fieldset>							
 			</form>			

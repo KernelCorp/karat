@@ -22,23 +22,30 @@
 	margin-top:10px;
 }
 
+div.content input.large, div.content input.middle, div.content input.small{
+	padding-top: 5px;
+	padding-left: 7px;	
+	padding-right: 0;
+}
+
+
 div.content  input.large{
-	padding: 5px 0 5px 3px;
-	width: 328px;	
-	height: 27px;
+	padding: 5px 2px 5px 3px;	
+	height: 29px;
+	width: 328px;
 }
 
 
 div.content  input.small{
 	padding: 5px 0 5px 3px;
-	width: 85px;	
-	height: 27px;
+	width: 87px;	
+	height: 29px;
 }
 
 div.content  input.middle{
 	padding: 5px 0 0 5px;
-	width: 224px;	
-	height: 27px;
+	width: 228px;	
+	height: 32px;
 }
 
 div.content > div.left  input.building{
@@ -66,7 +73,7 @@ div.content > div.right  textarea.textarea{
 	background-attachment: fixed;
 	background-image: url(../images/additional_information_textarea.png); 
 	background-position-x: 0;
-	background-position-y:-1px;
+	background-position-y: 0;
 	background-repeat: no-repeat;
 	padding: 0 0 3px 7px;
 	width: 323px;
@@ -76,10 +83,10 @@ div.content > div.right  textarea.textarea{
 div.content > div.right > .textarea-wrap{
 	background-image: url(../images/additional_information_textarea.png); 
 	background-position-x: 0;
-	background-position-y:-1px;
+	background-position-y: 0;
 	background-repeat: no-repeat;
-	width: 332px;
-	height: 98px;
+	width: 335px;
+	height: 104px;
 	margin-top: 10px;
 }
 

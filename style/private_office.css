@@ -72,21 +72,24 @@ sup.required
 	margin: 6px 0;
 }
 
+.private_office input.large, .private_office input.middle, .private_office input.small{
+	height: 30px;
+}
+
 .private_office  input.large{
-	background: url(../images/input-skin.png) 0 0 no-repeat;
+	background: url(../images/input_background_long.png) 0 0 no-repeat;
 	border-width: 3px;
 	border-color: transparent;
 	border-style: solid;
 	width: 326px;
-	height: 33px;
-	padding: 0 15px 3px 3px;
+	padding: 3px 15px 3px 7px;
 	color: #869ba7;
 	margin: 10px 0 10px 0;
 }
 
 .private_office input.large:focus{
 	outline: none;
-	background: url(../images/input-skin-focus.png) 0 0 no-repeat;
+	background: url(../images/input_background_long.png) 0 -40px no-repeat;
 }
 
 .private_office   input.middle{
@@ -95,15 +98,14 @@ sup.required
 	border-color: transparent;
 	border-style: solid;
 	width: 223px;
-	height: 33px;
-	padding: 0 5px 3px 3px;
+	padding: 3px 15px 3px 7px;
 	color: #869ba7;
 	margin: 10px 0 10px 0;
 }
 
 .private_office   input.middle:focus{
 	outline: none;
-	background: url(../images/input_middle_focus.png) 0 0 no-repeat;
+	background:url(../images/input_middle.png) 0 -41px no-repeat;
 }
 
 .private_office   input.small{
@@ -111,16 +113,15 @@ sup.required
 	border-width: 3px;
 	border-color: transparent;
 	border-style: solid;
-	width: 70px;
-	height: 33px;
-	padding: 0 15px 3px 3px;
+	width: 82px;
+	padding: 3px 15px 3px 7px;
 	color: #869ba7;
 	margin: 10px 0 10px 0;
 }
 
 .private_office   input.small:focus{
 	outline: none;
-	background: url(../images/input_small_focus.png) 0 0 no-repeat;
+	background: url(../images/input_small.png) 0 -41px no-repeat;
 }
 .private_office .avatar
 {

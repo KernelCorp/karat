@@ -8,6 +8,18 @@ body
 	color: #ffffff;
 }
 
+
+.content input.large, .content input.middle, .content input.small {
+	padding-top: 5px;
+	padding-left: 7px;	
+	padding-right: 0;
+}
+
+.content input.large{
+	border-right: none; 
+}
+
+
 .container
 {
 	width: 980px;
@@ -17,6 +29,22 @@ body
 h1, h2, h3, h4, h5, h6
 {
 	font-weight: normal;
+}
+
+.private_office input.large, .private_office input.middle, .private_office input.small{
+	height: 30px;
+}
+
+div.private_office input.large{
+	width: 312px;
+}
+
+div.private_office input.middle{
+	width: 210px;
+}
+
+.private_office input.small{
+	width: 70px;
 }
 
 sup.required
