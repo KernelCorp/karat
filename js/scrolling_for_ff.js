@@ -1,28 +1,45 @@
-function GetCaretPosition(control) {  
-	var caretPos = 0;
-	if (control.selectionDirection == "forward")
-		caretPos = control.selectionEnd;
-	if (control.selectionDirection == "backward")
-		caretPos = control.selectionStart;
-    return caretPos  
+function GetCaretPosition(control) {  	
+    return control.selectionEnd 
 }  
 
+function onScroll(){
+	
+	obj = document.getElementById("add-info");
+	clientHeight = obj.clientHeight;
+	scrollHeight = obj.scrollHeight;
+	if (scrollHeight > clientHeight){									
+		caretPos = GetCaretPosition(obj);
+		pre.innerHTML = obj.value.substring(0, caretPos);
+		caretHeight = pre.offsetHeight;
+		console.log(pre.innerHTML);	
+		scrollTop = caretHeight - clientHeight;
+		var delta = 0;
+					
+		//console.log(caretPos);					
+		//console.log(obj.scrollTop);			
+		//console.log(scrollTop);			
+		if (scrollTop > obj.scrollTop) 
+			delta = caretHeight - obj.scrollTop + Math.round(clientHeight/2);
+		else if ( caretHeight < obj.scrollTop ){
+			delta = caretHeight - obj.scrollTop - Math.round(clientHeight/2);
+		}
+		delta = Math.max(Math.min(scrollHeight - obj.scrollTop - clientHeight, delta), -obj.scrollTop);
+		//console.log(delta);
+		if ( delta ){
+			obj.scrollTop += delta;
+		}
+	}
+}
 
 $(document).ready(function(){
 	//if ($.browser.mozilla && $.browser.version == 2.0){
 		wrap = document.getElementById("pre-wrap");
 		pre = document.createElement("pre");
 		wrap.appendChild(pre);
-		$(".textarea").keydown(function(){
-			obj = document.getElementById("add-info");
-			clientHeight = obj.clientHeight;
-			scrollHeight = obj.scrollHeight;
-			caretPos = GetCaretPosition(obj);
-			pre.innerHTML = obj.value.substring(0, caretPos);
-			if (scrollHeight > clientHeight){
-				
-			}
-		});
+		$(".textarea").keydown(onScroll);		
+		$(".textarea").scroll(onScroll);
+		$(".textarea").select(onScroll);
+		
 	//
 });
 

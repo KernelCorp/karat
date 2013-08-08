@@ -15,11 +15,14 @@
 div.content input{
 	font-size: 13pt;
 	font-weight: normal;
+
 }
 
 .content  input.large{
 	background: url(../images/input-skin.png) 0 0 no-repeat;
-	border-width: 0;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
 	width: 326px;
 	height: 33px;
 	padding: 0 15px 3px 3px;
@@ -34,7 +37,9 @@ div.content input{
 
 .content  input.middle{
 	background: url(../images/input_middle.png) 0 0 no-repeat;
-	border-width: 0;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
 	width: 223px;
 	height: 33px;
 	padding: 0 5px 3px 3px;
@@ -49,7 +54,9 @@ div.content input{
 
 .content  input.small{
 	background: url(../images/input_small.png) 0 0 no-repeat;
-	border-width: 0;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
 	width: 82px;
 	height: 33px;
 	padding: 0 15px 3px 3px;
@@ -73,21 +80,30 @@ div.left > div.street-group > input.street{
 .content  textarea.textarea{
 	background: url(../images/additional_information_textarea.png) 0 -1px no-repeat;
 	border-width: 0;
-	width: 328px;
-	height: 91px;
+	width: 325px;
+	height: 87px;
 	font-size: 13pt;
 	color: #869ba7;
 	padding: 5px 0 3px 4px;
-	margin: 10px 0 10px 0;
-	overflow: hidden;
+	margin: 10px 0 10px 0;	
 	resize: none;
 	font-weight: normal;
 	font-family: "Arial";
+	border-width: 3px;
+	box-shadow: none;
+	border-color: transparent;
+	border-style: solid;
+	overflow: hidden; 
+	word-wrap: break-word; 
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap !important;
+	white-space: -o-pre-wrap;
+	white-space: -pre-wrap;
 }
 
 .content  textarea.textarea:focus{
 	outline: none;
-	background: url(../images/additional_information_textarea.png) 0 -100px no-repeat;
+	background: url(../images/additional_information_textarea.png) 0 -102px no-repeat;
 }
 
 
@@ -105,7 +121,7 @@ div.left > div.street-group > input.street{
 
 .office-group{
 	float: right;
-	width: 445px;
+	width: 440px;
 }
 
 .content > .title{
@@ -132,8 +148,8 @@ div.left > div.street-group > input.street{
 	font-size: 12pt;
 	color: #ffffff;
 	cursor: pointer;
-	margin-top: 15px;
 	line-height: 30px;
+	padding-bottom: 5px;
 }
 
 .content .submit:hover{
@@ -165,6 +181,7 @@ div.left > div.street-group > input.street{
 	display: inline-block;
 	color: #586c76;
 	font-size: 9pt;
+	margin-top: 40px;
 }
 
 .text-container a.shipping-information{
@@ -177,4 +194,21 @@ div.left > div.street-group > input.street{
 	display: inline-block;
 	color: #9dd8e9;
 	font-size: 9pt;
+}
+
+#pre-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+#pre-wrap pre{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	visibility: hidden;	
+	font-size: 13pt;
 }

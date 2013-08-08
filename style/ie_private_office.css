@@ -32,7 +32,7 @@ sup.required
 	font-size: 14px;		
 	margin: 0 auto;
 	width: 800px;
-	height: 550px;
+	height: 700px;
 }
 
 .private_office h1
@@ -44,7 +44,7 @@ sup.required
 .private_office .right_column
 {
 	width: 380px;
-	height: 400px;
+	height: 550px;
 	display: inline-block;
 	vertical-align: top;
 	float: right;
@@ -72,7 +72,6 @@ sup.required
 	margin: 3px 0;
 }
 
-.private_office input[type='text'],
 .private_office .avatar
 {
 	width: 338px;
@@ -90,11 +89,7 @@ sup.required
 	box-shadow: none;
 }
 
-.private_office input[type='text']:focus
-{
-	border-color: #ffffff;
-	outline:none;
-}
+
 
 .private_office .avatar
 {
@@ -115,28 +110,18 @@ sup.required
 
 .private_office .street
 {
-	display: inline-block;
-	width: 236px;
+	display: inline;
+	width: 238px;
 	margin-right: 10px;
 	float: left;	
 }
-.private_office .street input
-{
-	width: 236px;
-	background-image: url('../images/input_background_street.png');
-}
 
-.private_office input.short
-{
-	width: 95px;
-	background-image: url('../images/input_background_short.png');
-}
 
 .private_office .house,
 .private_office .corpus,
 .private_office .office
 {
-	display: inline-block;
+	display: inline;
 	width: 110px;
 	float: left;
 }
@@ -148,14 +133,15 @@ sup.required
 	margin-bottom: 80px;
 	height: 40px;
 	width: 800px;
+	display: inline;
 }
 
 .private_office .text_ruqired
 {	
-	display: inline-block;
+	display: inline;
 	margin-top: 15px;
 	margin-right: 20px;
-	margin-left: 340px;
+	margin-left: 360px;
 	float: left;
 }
 

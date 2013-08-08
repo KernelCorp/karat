@@ -49,8 +49,13 @@ div.content > div.left  > .building-group > label{
 	margin-left: 5px;
 }
 
+div.text-container > p.text{
+	margin-top: 85px;
+}
+
 .content{
 	padding-bottom: 200px;
+	margin-top: 50px;
 }
 
 div.content > div.left > div.building-group{
@@ -76,4 +81,8 @@ div.content > div.right > .textarea-wrap{
 	width: 332px;
 	height: 98px;
 	margin-top: 10px;
+}
+
+.text-container > .text{
+	width: 1024px;
 }

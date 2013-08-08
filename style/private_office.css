@@ -25,6 +25,10 @@ sup.required
 	font-size: 14px;
 }
 
+.private_office input{
+	line-height: 30px;
+}
+
 .private_office
 {
 	color: #869ca5;
@@ -68,7 +72,56 @@ sup.required
 	margin: 6px 0;
 }
 
-.private_office input[type='text'],
+.private_office  input.large{
+	background: url(../images/input-skin.png) 0 0 no-repeat;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
+	width: 326px;
+	height: 33px;
+	padding: 0 15px 3px 3px;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+}
+
+.private_office input.large:focus{
+	outline: none;
+	background: url(../images/input-skin-focus.png) 0 0 no-repeat;
+}
+
+.private_office   input.middle{
+	background: url(../images/input_middle.png) 0 0 no-repeat;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
+	width: 223px;
+	height: 33px;
+	padding: 0 5px 3px 3px;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+}
+
+.private_office   input.middle:focus{
+	outline: none;
+	background: url(../images/input_middle_focus.png) 0 0 no-repeat;
+}
+
+.private_office   input.small{
+	background: url(../images/input_small.png) 0 0 no-repeat;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
+	width: 70px;
+	height: 33px;
+	padding: 0 15px 3px 3px;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+}
+
+.private_office   input.small:focus{
+	outline: none;
+	background: url(../images/input_small_focus.png) 0 0 no-repeat;
+}
 .private_office .avatar
 {
 	width: 334px;
@@ -95,11 +148,6 @@ sup.required
 	box-shadow: 0 0 5px #6ba5c2; 
 }
 
-.private_office input[type='text']:focus
-{
-	border-color: #ffffff;
-	outline:none;
-}
 
 .private_office .avatar
 {
@@ -123,7 +171,7 @@ sup.required
 }
 .private_office .street input
 {
-	width: 219px;
+	width: 223px;
 }
 
 .private_office input.short

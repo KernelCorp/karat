@@ -2,18 +2,22 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
+		<title>Способ доставки</title>
 		<link rel="stylesheet" href="./style/header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />		
-		<link rel="stylesheet" href="./style/shipping_method.css" type="text/css" />					
-		<!--[if (gte IE 7)]>
+		<link rel="stylesheet" href="./style/shipping_method.css" type="text/css" />
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/scrolling_for_ff.js"></script>
+		<!--[if (IE 7)]>
 			<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
 			<link rel="stylesheet" type="text/css" href="./style/footer-ie7.css">
-			<link rel="stylesheet" type="text/css" href="./style/shipping_method-ie7.css">
-			<script type="text/javascript" src="./js/jquery.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="./style/shipping_method-ie7.css">			
 			<script type="text/javascript" src="./js/shipping_method.js"></script>	
 		<![endif]-->
 	</head>
 	<body onload="javascript:onbody()">
+		<div id="pre-wrap">
+		</div>
 		<div class="flare">		
 			<div class='header'>
 				<div class='info'>
@@ -79,10 +83,10 @@
 						<input class="office small">
 					</div>
 					<br>
-					<label>Дополнительная информация</label>
+					<label>Дополнительная информация:</label>
 					<br>
 					<div class="textarea-wrap">
-						<textarea class="additional-information textarea"></textarea>
+						<textarea  cols="38" rows="21" class="additional-information textarea" id = "add-info"></textarea>
 					</div>	
 					<br>
 					<p class="hint"><sup>*</sup> поля обязательны для заполнения</p>
