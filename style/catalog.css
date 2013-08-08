@@ -7,7 +7,7 @@
 .params {
 	*margin: 5px 0 5px 0;
 	width: 220px;
-	height: 642px;
+	height: 610px;
 	*padding: 15px;
 	*background-color: #fff;
 	text-align: center;
@@ -85,7 +85,7 @@
 .params h4 {
 	color: #687d87;
 	margin: 0;
-	padding-top: 10px
+	*padding-top: 10px;
 }
 
 .params ul.shapes {
@@ -139,6 +139,7 @@
 	margin-left: auto;
 	position: relative;
 	top: 7px;
+	right: 7px;
 }
 
 .params .slider_wrapper div.price_border {
@@ -149,6 +150,7 @@
 	top: 6px;
 	border-left: 1px solid #c2c2c2;
 	border-right: 1px solid #c2c2c2;
+	right: 7px;
 }
 
 .params .slider_wrapper > div.all_price {
@@ -170,15 +172,15 @@
 	font-size: 12px;
 	display: inline;
 	margin: 0;
-	padding: 0 1px;
+	padding: 0 0px;
 }
 
 .params .slider_wrapper input[type="text"] {
 	display: inline-block;
-	width: 54px;
+	width: 56px;
 	zoom: 1;
 	*display: inline;
-	padding: 1px;
+	padding: 1px 0 1px 0px;
 	font-size: 10px;
 }
 

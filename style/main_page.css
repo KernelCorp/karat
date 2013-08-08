@@ -228,8 +228,10 @@ h1, h2, h3, h4, h5, h6
 	vertical-align: top;
 }
 
-.examples_4 .navigation ul li a
+.bx-wrapper a.bx-prev,
+.bx-wrapper a.bx-next
 {
+	background: none;
 	color: #246e87;
 	text-decoration: none;
 	padding: 0 3px;
