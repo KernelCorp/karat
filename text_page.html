@@ -4,7 +4,8 @@
         <meta charset='utf-8'>
         <link rel="stylesheet" href="./style/header.css" type="text/css" />
         <link rel="stylesheet" href="./style/text_page.css" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="style/footer.css">
+		  <link rel="stylesheet" type="text/css" href="style/footer.css">
+		  <script type="text/javascript" src="js/jquery.min.js"></script>
         <!--[if (IE 7)]>
         <link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
         <link rel="stylesheet" href="./style/text_page_ie7.css" type="text/css" />
@@ -118,7 +119,7 @@
 									231 000 <small>USD</small>
 								</td>
 								<td>
-									<a href="#"><img src="./images/img_delete.png"></a>
+									<a class="delete" href="#"><img src="./images/img_delete.png"></a>
 								</td>
 							</tr>
 							<tr>
@@ -132,7 +133,7 @@
 									11 000 <small>USD</small>
 								</td>
 								<td>
-									<a href="#"><img src="./images/img_delete.png"></a>
+									<a class="delete" href="#"><img src="./images/img_delete.png"></a>
 								</td>
 							</tr>
 							<tr>
@@ -146,7 +147,7 @@
 									110 000 <small>USD</small>
 								</td>
 								<td>
-									<a><img src="./images/img_delete.png"></a>
+									<a class="delete"><img src="./images/img_delete.png"></a>
 								</td>
 							</tr>
 							<tr>
@@ -160,7 +161,7 @@
 									110 000 <small>USD</small>
 								</td>
 								<td>
-									<a href="#"><img src="./images/img_delete.png"></a>
+									<a class="delete" href="#"><img src="./images/img_delete.png"></a>
 								</td>
 							</tr>
 						</tbody>
@@ -224,6 +225,13 @@
 						<img src="images/ya100.png">
                 </div>
             </div>
-        </div>
+			</div>
+			<script type="text/javascript">
+				$del = $("a.delete");
+				$del.on("click", function(e) {
+					e.preventDefault();
+					$(this).parents("tr:first").remove();
+				});
+			</script>
     </body>
 </html>
