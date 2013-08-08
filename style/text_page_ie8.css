@@ -19,7 +19,7 @@
 }
 .top-text-container p{
 	margin-bottom: 28px;
-	line-height: 1.8;
+	line-height: 1.6;
 }
 .title{
 	font-weight: normal;
@@ -30,7 +30,7 @@
 	margin-left: 0px;
 	list-style-type: square;
 	list-style-position: inside;
-	line-height: 1.8;
+	line-height: 1.6;
 	
 }
 .more-link{
@@ -105,13 +105,13 @@ td{
 }
 .bottom-text-container{
 	font-size: 80%;
-	margin-top: 32px;
+	margin-top: 25px;
 	width: 662px;
 	float: right;
 }
 .bottom-text-container p{
-	margin-bottom: 35px;
-	line-height: 1.8;
+    margin-bottom: 35px;
+    line-height: 1.6;
 }
 .info-link{
 	color: #2d5d81;

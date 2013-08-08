@@ -1,5 +1,5 @@
 .flare{
-    width: 1024px;
+    width: 980px;
     min-height: 100%;
     margin: 0 auto;
     margin-bottom: -217px;
@@ -8,7 +8,7 @@
 }
 .content{
     margin-top: 30px;
-    width: 1024px;
+    width: 980px;
     height: 1000px;
 }
 photo-content{
@@ -22,7 +22,7 @@ h1.title{
     font-size: 2em;
     text-align: left;
     clear: both;
-    width: 1024px;
+    width: 980px;
 }
 .diploma-container{
     float: left;
