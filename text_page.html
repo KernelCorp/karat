@@ -11,7 +11,9 @@
         <link rel="stylesheet" type="text/css" href="style/footer-ie7.css">
         <![endif]-->
         <!--[if (IE 8)]>
-        <link rel="stylesheet" type="text/css" href="style/text_page_ie8.css" />
+        <link rel="stylesheet" href="./style/header.css" type="text/css" />
+        <link rel="stylesheet" href="./style/text_page_ie8.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="style/footer.css">
         <![endif]-->
     </head>
     <body>
@@ -81,8 +83,13 @@
 					</ul>
 					<a class="more-link" href="#">Узнать больше</a>
 				</div>
-				<div class="items-table-container">		
-					<table>
+				<div class="items-table-container">
+                    <!--[if (lte IE 8)]>
+                    <div class='top_border'>
+                    </div>
+                    <div class='table_border'>
+                    <![endif]-->
+                    <table>
 						<thead>
 							<tr class="table-head">
 								<th class="hname">
@@ -108,7 +115,7 @@
 									1
 								</td>
 								<td>
-									231 000 USD
+									231 000 <small>USD</small>
 								</td>
 								<td>
 									<img src="./images/img_delete.png">
@@ -122,7 +129,7 @@
 									1
 								</td>
 								<td>
-									11 000 USD
+									11 000 <small>USD</small>
 								</td>
 								<td>
 									<img src="./images/img_delete.png">
@@ -136,7 +143,7 @@
 									1
 								</td>
 								<td>
-									110 000 USD
+									110 000 <small>USD</small>
 								</td>
 								<td>
 									<img src="./images/img_delete.png">
@@ -150,7 +157,7 @@
 									1
 								</td>
 								<td>
-									110 000 USD
+									110 000 <small>USD</small>
 								</td>
 								<td>
 									<img src="./images/img_delete.png">
@@ -158,6 +165,11 @@
 							</tr>
 						</tbody>
 					</table>
+                    <!--[if (lte IE 8)]>
+                    </div>
+                    <div class='bottom_border'>
+                    </div>
+                    <![endif]-->
 				</div>
 				<div class="certificate-container">
 					<img src="./images/sertificate.png">

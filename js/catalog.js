@@ -68,3 +68,15 @@ $('.dropdowns_wrapper select').each(function() {
 	});
 
 });
+
+$("#price_slider").slider({
+	max: 100000000,
+	min: 0,
+	range: true,
+	step: 100000,
+	values: [0, 100000000],
+	slide: function(e, ui) {
+		$('#price_low').val(ui.values[0]);
+		$('#price_high').val(ui.values[1]);
+	}
+});
