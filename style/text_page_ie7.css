@@ -2,13 +2,13 @@
 	width: 1024px;
     min-height: 100%;
     margin: 0 auto;
-    margin-bottom: -217px;
     background: url(../images/body-background.png) -140px -8px no-repeat;
     padding-bottom: 200px;
 	color: #ffffff;
 	#color: #9bb1b7;
 }
 .content{
+	margin-top: 30px;
     width: 1024px;
     height: 1000px;	
 }
@@ -27,7 +27,7 @@
 }
 .list{
 	margin-top: 43px;
-	padding-left: 0px;
+	margin-left: 0px;
 	list-style-type: square;
 	list-style-position: inside;
 	line-height: 1.8;
@@ -84,7 +84,7 @@ td{
 }
 .bottom-text-container{
 	font-size: 80%;
-	margin-top: 22px;
+	margin-top: 32px;
 	width: 696px;
 	float: right;
 }
