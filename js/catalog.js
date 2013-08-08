@@ -83,11 +83,3 @@ $("#price_slider").slider({
 
 var $pl = $("#price_low"),
 	$ph = $("#price_high");
-
-$("#price_low").on("focusout", function(e) {
-	$("#price_slider").slider("values", $pl.val(), $ph.val());
-});
-
-$("#price_low").on("focusout", function(e) {
-	$("#price_slider").slider("values", $pl.val(), $ph.val());
-});
