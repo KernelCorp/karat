@@ -6,8 +6,9 @@
 
 .params {
 	*margin: 5px 0 5px 0;
-	width: 190px;
-	padding: 15px;
+	width: 220px;
+	height: 642px;
+	*padding: 15px;
 	*background-color: #fff;
 	text-align: center;
 	display: block;
@@ -25,6 +26,7 @@
 .params > div.top_gradient {
 	background-image: url('../images/form-container-up.png');
 	top: 0;
+	height: 550px !important;
 }
 
 .params > div.top_gradient, .params > div.bottom_gradient {
@@ -37,13 +39,23 @@
 	padding: 0;
 }
 
-.params > * {
+.params > .middle_params {
+	position: absolute;
+	top: 7px;
+	width: 190px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 2;
+}
+
+.params > .middle_params > * {
 	border-bottom: 1px solid #dedede;
 	padding-bottom: 15px;
 	margin-top: 15px;
 }
 
-.params > .find_button {
+.params .find_button {
 	border-bottom: 0;
 	text-transform: uppercase;
 	background-image: url('../images/button-find.png');
@@ -59,7 +71,7 @@
 	padding-bottom: 0;
 }
 
-.params > .find_button a {
+.params .find_button a {
 	width: 190px;
 	height: 34px;
 	display: block;
@@ -70,20 +82,20 @@
 	color: white;
 }
 
-.params > h4 {
+.params h4 {
 	color: #687d87;
 	margin: 0;
 	padding-top: 10px
 }
 
-.params > ul.shapes {
+.params ul.shapes {
 	margin: 0;
 	padding: 15px 0 0 0;
 	list-style: none;
 	text-align: center;
 }
 
-.params > ul.shapes > li {
+.params ul.shapes > li {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
@@ -94,33 +106,33 @@
 	cursor: pointer;
 }
 
-.params > ul.shapes > li.endline {
+.params ul.shapes > li.endline {
 	margin-right: 0;
 }
 
-.params > .dropdowns_wrapper {
+.params .dropdowns_wrapper {
 	text-align: left;
 }
 
-.params > .dropdowns_wrapper p {
+.params .dropdowns_wrapper p {
 	padding: 0 0;
 	margin: 4px 0;
 	font-size: 12px;
 	color: #546e7a;
 }
 
-.params > .dropdowns_wrapper > .dropdown {
+.params .dropdowns_wrapper > .dropdown {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
 	width: 48%;
 }
 
-.params > .slider_wrapper {
+.params .slider_wrapper {
 	position: relative;
 }
 
-.params > .slider_wrapper #price_slider {
+.params .slider_wrapper #price_slider {
 	height: 2px;
 	background-color: #c2c2c2;
 	margin-top: 6px;
@@ -129,7 +141,7 @@
 	top: 7px;
 }
 
-.params > .slider_wrapper div.price_border {
+.params .slider_wrapper div.price_border {
 	position: absolute;
 	height: 5px;
 	width: 113px;
@@ -139,19 +151,19 @@
 	border-right: 1px solid #c2c2c2;
 }
 
-.params > .slider_wrapper > div.all_price {
+.params .slider_wrapper > div.all_price {
 	height: 24px;
 }
 
-.params > .slider_wrapper > div.inline {
+.params .slider_wrapper > div.inline {
 	font-size: 10px;
 }
 
-.params > .slider_wrapper > div.inline > * {
+.params .slider_wrapper > div.inline > * {
 	display: inline;
 }
 
-.params > .slider_wrapper p {
+.params .slider_wrapper p {
 	color: #546e7a;
 	font-size: 12px;
 	display: inline;
@@ -159,7 +171,7 @@
 	padding: 0 5px;
 }
 
-.params > .slider_wrapper input[type="text"] {
+.params .slider_wrapper input[type="text"] {
 	display: inline-block;
 	width: 37px;
 	zoom: 1;
@@ -168,7 +180,7 @@
 	font-size: 10px;
 }
 
-.params > .slider_wrapper div.ok_button {
+.params .slider_wrapper div.ok_button {
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
