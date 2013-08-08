@@ -32,7 +32,7 @@ function onScroll(){
 }
 
 $(document).ready(function(){
-	//if ($.browser.mozilla && $.browser.version == 2.0){
+	if ($.browser.mozilla && $.browser.version == 2.0){
 		wrap = document.getElementById("pre-wrap");
 		pre = document.createElement("pre");
 		wrap.appendChild(pre);
@@ -40,7 +40,7 @@ $(document).ready(function(){
 		$(".textarea").scroll(onScroll);
 		$(".textarea").select(onScroll);
 		
-	//
+	}
 });
 
 
