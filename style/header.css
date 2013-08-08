@@ -5,6 +5,10 @@ body
 	font-weight: normal;
 }
 
+.flare{	
+	background: url(../images/body-background.png) -140px -8px no-repeat;		
+}
+
 .header .info
 {
 	height: 70px;
@@ -51,7 +55,7 @@ body
 {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 10px 0 0;
 	text-align: center;
 }
 
