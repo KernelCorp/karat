@@ -80,3 +80,6 @@ $("#price_slider").slider({
 		$('#price_high').val(ui.values[1]);
 	}
 });
+
+var $pl = $("#price_low"),
+	$ph = $("#price_high");

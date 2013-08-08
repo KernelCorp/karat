@@ -153,10 +153,12 @@
 
 .params .slider_wrapper > div.all_price {
 	height: 24px;
+	width: 100%;
 }
 
 .params .slider_wrapper > div.inline {
 	font-size: 10px;
+	width: 100%;
 }
 
 .params .slider_wrapper > div.inline > * {
@@ -168,15 +170,15 @@
 	font-size: 12px;
 	display: inline;
 	margin: 0;
-	padding: 0 5px;
+	padding: 0 1px;
 }
 
 .params .slider_wrapper input[type="text"] {
 	display: inline-block;
-	width: 37px;
+	width: 54px;
 	zoom: 1;
 	*display: inline;
-	padding: 5px;
+	padding: 1px;
 	font-size: 10px;
 }
 
