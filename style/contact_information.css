@@ -1,4 +1,4 @@
-.flare{	
+﻿.flare{	
 	background: url(../images/body-background.png) -140px -8px no-repeat;		
 }
 
@@ -12,20 +12,22 @@
 	width: 550px;
 }
 
-.content  input{
-	background: url(../images/input-skin.png) 0 0 no-repeat;
-	border-width: 0;
+div.content  input{
+	background: url(../images/input_background_long.png) 0 0px no-repeat;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
 	width: 326px;
-	height: 33px;
-	padding: 0 15px 3px 3px;
-	font-size: 13pt;
+	height: 28px;
+	padding: 3px 15px 3px 7px;
+	font-size: 11pt;
 	color: #869ba7;
 	margin: 10px 0 10px 0;
 }
 
 .content  input:focus{
-	outline: none;
-	background: url(../images/input-skin-focus.png) 0 0 no-repeat;
+	outline: none;	
+	background: url(../images/input_background_long.png) 0px -40px no-repeat;
 }
 
 .content > .title{

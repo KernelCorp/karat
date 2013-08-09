@@ -13,26 +13,27 @@
 }
 
 div.content input{
-	font-size: 13pt;
+	font-size: 11pt;
 	font-weight: normal;
 
 }
 
 .content  input.large{
-	background: url(../images/input-skin.png) 0 0 no-repeat;
+	background: url(../images/input_background_long.png) 0 0 no-repeat;
 	border-width: 3px;
 	border-color: transparent;
 	border-style: solid;
 	width: 326px;
-	height: 33px;
-	padding: 0 15px 3px 3px;
+	height: 27px;
+	padding: 3px 15px 3px 7px;
 	color: #869ba7;
+	font-size: 11pt;
 	margin: 10px 0 10px 0;
 }
 
 .content  input.large:focus{
 	outline: none;
-	background: url(../images/input-skin-focus.png) 0 0 no-repeat;
+	background: url(../images/input_background_long.png) 0 -40px no-repeat;
 }
 
 .content  input.middle{
@@ -41,15 +42,15 @@ div.content input{
 	border-color: transparent;
 	border-style: solid;
 	width: 223px;
-	height: 33px;
-	padding: 0 5px 3px 3px;
+	height: 29px;
+	padding: 3px 15px 3px 7px;
 	color: #869ba7;
 	margin: 10px 0 10px 0;
 }
 
 .content  input.middle:focus{
 	outline: none;
-	background: url(../images/input_middle_focus.png) 0 0 no-repeat;
+	background:url(../images/input_middle.png) 0 -41px no-repeat;
 }
 
 .content  input.small{
@@ -58,15 +59,15 @@ div.content input{
 	border-color: transparent;
 	border-style: solid;
 	width: 82px;
-	height: 33px;
-	padding: 0 15px 3px 3px;
+	height: 27px;
+	padding: 7px 15px 3px 7px;
 	color: #869ba7;
 	margin: 10px 0 10px 0;
 }
 
 .content  input.small:focus{
 	outline: none;
-	background: url(../images/input_small_focus.png) 0 0 no-repeat;
+	background: url(../images/input_small.png) 0 -41px no-repeat;
 }
 
 div.left > div.street-group > input.street{
@@ -80,8 +81,8 @@ div.left > div.street-group > input.street{
 .content  textarea.textarea{
 	background: url(../images/additional_information_textarea.png) 0 -1px no-repeat;
 	border-width: 0;
-	width: 325px;
-	height: 87px;
+	width: 329px;
+	height: 92px;
 	font-size: 13pt;
 	color: #869ba7;
 	padding: 5px 0 3px 4px;
@@ -103,7 +104,7 @@ div.left > div.street-group > input.street{
 
 .content  textarea.textarea:focus{
 	outline: none;
-	background: url(../images/additional_information_textarea.png) 0 -102px no-repeat;
+	background: url(../images/additional_information_textarea.png) 0 -107px no-repeat;
 }
 
 
