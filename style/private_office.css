@@ -76,53 +76,7 @@ sup.required
 	height: 30px;
 }
 
-.private_office  input.large{
-	background: url(../images/input_background_long.png) 0 0 no-repeat;
-	border-width: 3px;
-	border-color: transparent;
-	border-style: solid;
-	width: 326px;
-	padding: 3px 15px 3px 7px;
-	color: #869ba7;
-	margin: 10px 0 10px 0;
-}
 
-.private_office input.large:focus{
-	outline: none;
-	background: url(../images/input_background_long.png) 0 -40px no-repeat;
-}
-
-.private_office   input.middle{
-	background: url(../images/input_middle.png) 0 0 no-repeat;
-	border-width: 3px;
-	border-color: transparent;
-	border-style: solid;
-	width: 223px;
-	padding: 3px 15px 3px 7px;
-	color: #869ba7;
-	margin: 10px 0 10px 0;
-}
-
-.private_office   input.middle:focus{
-	outline: none;
-	background:url(../images/input_middle.png) 0 -41px no-repeat;
-}
-
-.private_office   input.small{
-	background: url(../images/input_small.png) 0 0 no-repeat;
-	border-width: 3px;
-	border-color: transparent;
-	border-style: solid;
-	width: 82px;
-	padding: 3px 15px 3px 7px;
-	color: #869ba7;
-	margin: 10px 0 10px 0;
-}
-
-.private_office   input.small:focus{
-	outline: none;
-	background: url(../images/input_small.png) 0 -41px no-repeat;
-}
 .private_office .avatar
 {
 	width: 334px;

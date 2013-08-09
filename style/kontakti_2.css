@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6
 
 
 
-
+/*
 .feedback_form  input.large{
 	background: url(../images/input_background_long.png) 0 0 no-repeat;
 	border-width: 3px;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6
 	background: url(../images/input_background_long.png) 0 -40px no-repeat;
 }
 
-
+/*
 .feedback_form  textarea.textarea-large{
 	background: url(../images/textarea_large.png) 0 0 no-repeat;
 	border-width: 3px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6
 	outline: none;
 	background: url(../images/textarea_large.png) 0 -181px no-repeat;
 }
-
+*/
 
 form.feedback_form > fieldset{
 	border: none;

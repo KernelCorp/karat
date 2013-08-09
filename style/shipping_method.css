@@ -11,7 +11,7 @@
 	text-align: left;
 	width: 550px;
 }
-
+/*
 div.content input{
 	font-size: 11pt;
 	font-weight: normal;
@@ -69,7 +69,7 @@ div.content input{
 	outline: none;
 	background: url(../images/input_small.png) 0 -41px no-repeat;
 }
-
+*/
 div.left > div.street-group > input.street{
 	margin-right: 10px;
 }
@@ -77,7 +77,7 @@ div.left > div.street-group > input.street{
 .building-group{
 	width: 115px;
 }
-
+/*
 .content  textarea.textarea{
 	background: url(../images/additional_information_textarea.png) 0 -1px no-repeat;
 	border-width: 0;
@@ -107,7 +107,7 @@ div.left > div.street-group > input.street{
 	background: url(../images/additional_information_textarea.png) 0 -107px no-repeat;
 }
 
-
+*/
 .street-group{
 	float: left;
 }

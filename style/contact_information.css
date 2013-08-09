@@ -11,7 +11,7 @@
 	text-align: left;
 	width: 550px;
 }
-
+/*
 div.content  input{
 	background: url(../images/input_background_long.png) 0 0px no-repeat;
 	border-width: 3px;
@@ -29,7 +29,7 @@ div.content  input{
 	outline: none;	
 	background: url(../images/input_background_long.png) 0px -40px no-repeat;
 }
-
+*/
 .content > .title{
 	font-size: 30pt;
 	color: #ffffff;
