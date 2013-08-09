@@ -32,13 +32,13 @@ div.content input.large, div.content input.middle, div.content input.small{
 div.content  input.large{
 	padding: 5px 2px 5px 3px;	
 	height: 29px;
-	width: 328px;
+	width: 330px;
 }
 
 
 div.content  input.small{
 	padding: 5px 0 5px 3px;
-	width: 87px;	
+	width: 90px;	
 	height: 29px;
 }
 
@@ -92,4 +92,7 @@ div.content > div.right > .textarea-wrap{
 
 .text-container > .text{
 	width: 1024px;
+}
+.container{
+	margin-bottom: 200px;
 }

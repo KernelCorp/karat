@@ -2,3 +2,10 @@
 	line-height: 1;
 }
 
+.footer .footer-right{
+	margin-top: -40px;
+}
+
+.footer {
+	margin-top: 50px;
+}
