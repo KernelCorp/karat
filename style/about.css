@@ -1,3 +1,12 @@
+body {
+	background-color : #00101b;
+	background-image: url('../images/main_page_fon.jpg');
+	background-repeat: no-repeat;
+	background-position: center -380px;
+	font-family: Arial;
+	color: #ffffff;
+}
+
 
 .header{
 	margin-bottom: -30px;
@@ -77,5 +86,6 @@ h1.bank-details-title{
 	text-align: right;
 	float: left;
 	font-weight: normal;
+	margin-bottom: 0;
 }
 
