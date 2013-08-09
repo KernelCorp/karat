@@ -1,5 +1,10 @@
-﻿.flare{	
-	background: url(../images/body-background.png) -140px -8px no-repeat;		
+﻿body {
+	background-color : #00101b;
+	background-image: url('../images/main_page_fon.jpg');
+	background-repeat: no-repeat;
+	background-position: center -380px;
+	font-family: Arial;
+	color: #ffffff;
 }
 
 .content > .left{
@@ -76,6 +81,7 @@ div.content  input{
 	margin-right: 10px;
 	font-size: 9pt;
 	color: #99afb5;
+	width: 200px;
 }
 
 
