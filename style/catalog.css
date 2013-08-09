@@ -305,7 +305,7 @@ ul.products > li.product > h5
 	text-align: center;
 	color: #133d60;
 	font-weight: bold;
-	min-height: 32px;
+	height: 32px;
 }
 
 ul.products > li.product > .image
@@ -482,7 +482,7 @@ a.i8 {
 
 .styledSelect > .corner {
 	position: absolute;
-	left: -7px;
+	left: -6px;
 	top: 0;
 	width: 7px;
 	height: 20px;

@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6
 	display: inline-block;
 	color: #9bb1b7;
 	width: 308px;
-	height: 250px;
+	*height: 250px;
 	margin-right: 28px;
 	font-size: 12px;
 	vertical-align: top;
@@ -177,6 +177,6 @@ sup.required
 	text-align: right;
 }
 
-
-
-
+.footer-left, .footer-right {
+	display: inline-block;
+}

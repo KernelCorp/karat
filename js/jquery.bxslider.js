@@ -1279,7 +1279,8 @@
 			// if a pager is being displayed and a custom pager is not being used, update it
 			if(slider.settings.pager && !slider.settings.pagerCustom){
 				populatePager();
-				appendControls();
+				if($("a.bx-prev, a.bx-next").length == 0)
+					appendControls();
 				updatePagerActive(slider.active.index);
 			}
 		}

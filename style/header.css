@@ -144,5 +144,9 @@ body
 	margin: 0 auto;
 }
 
-
+@media(min-width: 1601px) {
+	body * {
+		
+	}
+}
 
