@@ -32,7 +32,7 @@ body
 	float: right;
 	padding-left: 35px;
 	margin-top: 25px;
-	font-size: 12px;
+	font-size: 0.8em;
 }
 
 .header .basket a
@@ -99,8 +99,20 @@ body
 
 .header .menu li
 {	
-	display: inline;
-	height: 60px;
+	display: inline-block;
+	height: 2.6em;
+	overflow: hidden;
+	width: 90px;
+}
+
+.header .menu li.middle
+{
+	width: 111px;
+}
+
+.header .menu li.long
+{
+	width: 148px;
 }
 
 .header .menu li a
@@ -108,22 +120,39 @@ body
 	color: white;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 12px;
+	font-size: 0.75em;
 	height: 34px;
-	padding: 10px 10px; 
-	margin: 10px 0px;
-	min-width: 88px;
+	padding: 0.82em 0.15em; 
+	margin: 0.7em 0;
+	min-width: 7.4em;	
+}
+.header .menu li.middle a,
+.header .menu li.long a
+{
+	padding: 0.82em; 
 }
 
-.header .menu li a:hover
+.header .menu li a:hover,
+.header .menu li.current a
 {
 	color: #ddd;
 	text-decoration: none;
 	background-image: url('../images/menu_select.png');
 	background-repeat: no-repeat;
-
 }
-.header .menu li a.long:hover
+
+.header .menu li.middle a:hover,
+.header .menu li.middle.current a
+{
+	color: #ddd;
+	text-decoration: none;
+	background-image: url('../images/menu_select_middle.png');
+	background-repeat: no-repeat;
+}
+
+
+.header .menu li.long a:hover,
+.header .menu li.long.current a
 {
 	background-image: url('../images/menu_select_long.png');
 }
