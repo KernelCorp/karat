@@ -100,7 +100,7 @@ body
 .header .menu li
 {	
 	display: inline-block;
-	height: 2.6em;
+	height: 60px;
 	overflow: hidden;
 	width: 90px;
 }
@@ -121,9 +121,9 @@ body
 	text-decoration: none;
 	display: inline-block;
 	font-size: 0.75em;
-	height: 34px;
+	height: 16px;
 	padding: 10px 5px; 
-	margin: 0.7em 0;
+	margin: 10px 0;
 	min-width: 80px;	
 }
 .header .menu li.middle a
