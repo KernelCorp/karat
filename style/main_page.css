@@ -157,7 +157,8 @@ h1, h2, h3, h4, h5, h6
 	text-align: center;
 	color: #133d60;
 	font-weight: bold;
-	min-height: 32px;
+	font-size: 0.83em;
+	height: 32px;
 }
 
 .examples_4 .paginator ul li .image
@@ -172,6 +173,7 @@ h1, h2, h3, h4, h5, h6
 {
 	margin: 0 auto;
 	font-size: 0.9em;
+	border-collapse: collapse;
 }
 
 .examples_4 .paginator ul li table th,
@@ -181,6 +183,7 @@ h1, h2, h3, h4, h5, h6
 	text-align: right;
 	color: #ffffff;
 	font-weight: normal;
+	height: 17px;
 }
 
 .examples_4 .paginator ul li table td,
@@ -188,6 +191,7 @@ h1, h2, h3, h4, h5, h6
 {
 	text-align: left;
 	color: #0c71c0;
+	height: 17px;
 }
 
 .cost
