@@ -102,17 +102,17 @@ body
 	display: inline-block;
 	height: 60px;
 	overflow: hidden;
-	width: 90px;
+	width: 100px;
 }
 
 .header .menu li.middle
 {
-	width: 111px;
+	width: 121px;
 }
 
 .header .menu li.long
 {
-	width: 150px;
+	width: 154px;
 }
 
 .header .menu li a
@@ -122,13 +122,13 @@ body
 	display: inline-block;
 	font-size: 0.75em;
 	height: 16px;
-	padding: 10px 5px; 
+	padding: 10px 0px; 
 	margin: 10px 0;
-	min-width: 80px;	
+	min-width: 90px;	
 }
 .header .menu li.middle a
 {
-	width: 98px;
+	width: 101px;
 	padding: 10px 5px; 
 }
 .header .menu li.long a
