@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6
 	font-weight: normal;
 }
 
-div.details
+div.details2
 {
 	border: none;
 	padding: 0px;
@@ -30,7 +30,7 @@ div.total
 	padding: 20px;
 }
 
-table.details
+table.details2
 {
 	border-collapse: collapse;
 	text-align: center;
@@ -42,19 +42,19 @@ table.details
 	
 }
 
-table.details .total
+table.details2 .total
 {
 	text-align: right;
 }
 
-table.details td
+table.details2 td
 {
 	padding: 10px;
 }
 
 
 
-table.details .image_example
+table.details2 .image_example
 {
 	background-image: url('../images/light_fon.png');
 	background-repeat: no-repeat;
@@ -64,25 +64,25 @@ table.details .image_example
 	zoom: 0.4;
 }
 
-table.details .image_example img
+table.details2 .image_example img
 {
 	padding: 30px 0 0 10px;
 }
 
-.details thead tr th
+.details2 thead tr th
 {
 	border-bottom: 1px solid #13385d;
 	font-weight: normal;
 	padding: 10px 0;
 }
 
-.details .description
+.details2 .description
 {
 	text-align: left;
 }
 
-.details .total,
-.details .cost
+.details2 .total,
+.details2 .cost
 {
 	width: 240px;
 }
@@ -101,7 +101,7 @@ table.details .image_example img
 	padding-right: 20px;
 }
 
-.details .bottom_border
+.details2 .bottom_border
 {
 	background-image: url('../images/details_bottom_border.png');
 	background-repeat: no-repeat;
@@ -109,7 +109,7 @@ table.details .image_example img
 	margin: 0 -20px -20px 0px;
 }
 
-.details .top_border
+.details2 .top_border
 {
 	background-image: url('../images/details_top_border.png');
 	background-repeat: no-repeat;
