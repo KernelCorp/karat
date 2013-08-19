@@ -2,18 +2,29 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
+		<meta name="viewport" content="minimum-scale=0.5, initial-scale=1, maximum-scale=3.0">
+		<title>Способ доставки</title>
 		<link rel="stylesheet" href="./style/header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />		
-		<link rel="stylesheet" href="./style/shipping_method.css" type="text/css" />					
-		<!--[if (gte IE 7)]>
+		<link rel="stylesheet" href="./style/shipping_method.css" type="text/css" />
+		<link rel="stylesheet" href="./style/forms.css" type="text/css" />
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/scrolling_for_ff.js"></script>
+		<!--[if ( IE 7)]>
 			<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
 			<link rel="stylesheet" type="text/css" href="./style/footer-ie7.css">
-			<link rel="stylesheet" type="text/css" href="./style/shipping_method-ie7.css">
-			<script type="text/javascript" src="./js/jquery.min.js"></script>
+			<link rel="stylesheet" type="text/css" href="./style/shipping_method-ie7.css">			
 			<script type="text/javascript" src="./js/shipping_method.js"></script>	
+		<![endif]-->
+		
+		
+		<!--[if (IE)]>
+			<link rel="stylesheet" type="text/css" href="./style/shipping_method-ie8.css">		
 		<![endif]-->
 	</head>
 	<body onload="javascript:onbody()">
+		<div id="pre-wrap">
+		</div>
 		<div class="flare">		
 			<div class='header'>
 				<div class='info'>
@@ -22,7 +33,7 @@
 					</div>
 					<div class='basket'>
 					В вашей корзине<br/>
-					2 товара на сумму 21 000$
+					<a href='#'>2 товара</a> на сумму 21 000$
 					</div>
 					<div class='language'>
 						<ul>
@@ -34,18 +45,18 @@
 				</div>
 				<div class='menu'>
 					<ul class='menu_left'>
-						<li class='current'><a href= '#'>О КОМПАНИИ</a></li>
+						<li class='middle current'><a href= '#'>О КОМПАНИИ</a></li>
 						<li><a href= '#'>НОВОСТИ</a></li>
-						<li><a href= '#'>AFRICAT-KARAT</a></li>
+						<li class='middle'><a href= '#'>AFRICAT-KARAT</a></li>
 					</ul>
 					<ul class='menu_right'>
 						<li><a href= '#'>КАТАЛОГ</a></li>
-						<li><a href= '#' class='long'>ВСЁ О БРИЛЛИАНТАХ</a></li>
+						<li class='long'><a href= '#'>ВСЁ О БРИЛЛИАНТАХ</a></li>
 						<li><a href= '#'>КОНТАКТЫ</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="content">
+			<div class="container content">
 				<h1 class="title"> Способ доставки</h1>
 				<div class="left">
 					<label>Регион:<sup>*</sup></label>
@@ -79,10 +90,10 @@
 						<input class="office small">
 					</div>
 					<br>
-					<label>Дополнительная информация</label>
+					<label>Дополнительная информация:</label>
 					<br>
 					<div class="textarea-wrap">
-						<textarea class="additional-information textarea"></textarea>
+						<textarea  cols="38" rows="21" class="additional-information textarea" id = "add-info"></textarea>
 					</div>	
 					<br>
 					<p class="hint"><sup>*</sup> поля обязательны для заполнения</p>
@@ -97,7 +108,7 @@
 					<a href = "#" class="shipping-information">Условия и стоимость доставки.</a>
 				</div>
 			</div>
-		</div>	
+		
 		<div class="footer">
 			<div class="footer-content">
 				<div class="footer-left">
@@ -113,8 +124,10 @@
 					</p>
 				</div>
 				<div class="footer-right">
+					<img src="images/ya100.png">
 				</div>
 			</div>
-		</div>			
+		</div>
+		</div> <!-- end flare--->
 	</body>
 </html>

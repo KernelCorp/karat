@@ -1,0 +1,9 @@
+﻿.content input.large, .content input.middle, .content input.small {
+	padding-top: 3px;
+	padding-left: 10px;	
+	padding-right: 0;
+}
+
+.content input.large{
+	border-right: none; 
+}

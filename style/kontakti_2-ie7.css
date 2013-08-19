@@ -1,0 +1,19 @@
+.form textarea#message
+{
+	width: 609px;
+	height: 171px;
+	overflow: hidden;
+}
+
+form.feedback_form input.large {
+	padding-top: 5px;
+	padding-left: 7px;	
+	height: 27px;
+	padding-right: 0;
+	line-height: 19px;
+	width: 327px;
+}
+
+.flare{
+	padding-bottom: 200px;
+}

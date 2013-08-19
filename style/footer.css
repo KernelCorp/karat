@@ -3,12 +3,13 @@ body{
 }
 
 html,body{
-	height:100%;
+	min-height:100%;
 	margin: 0;
 }
 
 .flare{
-	width: 1024px;
+	position: absolute;
+	width: 100%;	
 	min-height: 100%;
 	margin: 0 auto;
 	margin-bottom: -217px;	
@@ -25,13 +26,14 @@ html,body{
 	bottom: 0;
 	width: 100%;
 	min-width: 1024px;
-	margin-bottom: -500px;
+	position: absolute;
+	bottom: 0;
 }
 
 
 
 .footer-content{
-	width: 1074px;
+	width: 1000px;
 	margin: 0 auto;
 	height: 100%;	
 	text-align:center;
@@ -55,30 +57,29 @@ html,body{
 	margin-top: 145px;
 	text-align: left;
 }
-.footer-left > p{
+.footer-left > p {
 	margin: 0 0 10px 0;
 	font-family: arial;
 	margin-top: 145px;
 }
 
-
-
-.footer-left > p.title-phone{
+.footer-left > p.title-phone {
 	font-size: 9pt;
 	color: #d4f0fd;	
 }
 
 
-.footer-left > p.phone{
+.footer-left > p.phone {
 	font-size: 11pt;
 	color: #d4f0fd;
 }
 
-.footer-left > p.phone-prefix{
+.footer-left > p.phone-prefix {
 	font-size: 11pt;
 	color: #0084cb;
 }
 
-.footer-right{
-	float: right
+.footer-right {
+	float: right;
+	margin-top: 160px;
 }

@@ -1,11 +1,13 @@
-.flare{
-    width: 980px;
-    min-height: 100%;
-    margin: 0 auto;
-    margin-bottom: -217px;
-    background: url(../images/body-background.png) -140px -8px no-repeat;
-    padding-bottom: 200px;
+.flare {
+	background-color : #00101b;
+	background-image: url('../images/main_page_fon.jpg');
+	background-repeat: no-repeat;
+	background-position: center -380px;
+	font-family: Arial;
+	color: #ffffff;
+	min-width: 1024px;
 }
+
 .content{
     margin-top: 30px;
     width: 980px;

@@ -2,9 +2,12 @@
 <html>
 	<head>
 		<meta charset='utf-8'>
+		<meta name="viewport" content="minimum-scale=0.5, initial-scale=1, maximum-scale=3.0">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.5, minimum-scale=0.5">
 		<link rel="stylesheet" href="./style/header.css" type="text/css" />
 		<link rel="stylesheet" href="./style/footer.css" type="text/css" />		
 		<link rel="stylesheet" href="./style/contact_information.css" type="text/css" />					
+		<link rel="stylesheet" href="./style/forms.css" type="text/css" />					
 		<!--[if (gte IE 7)]>
 			<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
 			<link rel="stylesheet" type="text/css" href="./style/footer-ie7.css">
@@ -13,7 +16,7 @@
 			<script type="text/javascript" src="./js/contact_information-ie7.js"></script>	
 		<![endif]-->
 	</head>
-	<body onload="javascript:onbody()">
+	<body>
 		<div class="flare">		
 			<div class='header'>
 				<div class='info'>
@@ -34,46 +37,46 @@
 				</div>
 				<div class='menu'>
 					<ul class='menu_left'>
-						<li class='current'><a href= '#'>О КОМПАНИИ</a></li>
+						<li class='middle current'><a href= '#'>О КОМПАНИИ</a></li>
 						<li><a href= '#'>НОВОСТИ</a></li>
-						<li><a href= '#'>AFRICAT-KARAT</a></li>
+						<li class='middle'><a href= '#'>AFRICAT-KARAT</a></li>
 					</ul>
 					<ul class='menu_right'>
 						<li><a href= '#'>КАТАЛОГ</a></li>
-						<li><a href= '#' class='long'>ВСЁ О БРИЛЛИАНТАХ</a></li>
+						<li class='long'><a href= '#'>ВСЁ О БРИЛЛИАНТАХ</a></li>
 						<li><a href= '#'>КОНТАКТЫ</a></li>
 					</ul>
 				</div>
 			</div>
-			<div class="content">
+			<div class="content container">
 				<h1 class="title"> Оформление заказа</h1>
 				<div class="left">
-					<label>Фамилия<sup>*</sup></label>
+					<label>Фамилия:<sup>*</sup></label>
 					<br>
-					<input class="last-name">
+					<input class="last-name large">
 					<br>
-					<label>Имя<sup>*</sup></label>
+					<label>Имя:<sup>*</sup></label>
 					<br>
-					<input class="name">
+					<input class="name large">
 					<br>	
-					<label>Отчество<sup>*</sup></label>
+					<label>Отчество:<sup>*</sup></label>
 					<br>
-					<input class="middle-name">
+					<input class="middle-name large">
 				</div>
 				<div class="right">
-					<label>E-mail<sup>*</sup></label>
+					<label>E-mail:<sup>*</sup></label>
 					<br>
-					<input class="e-mail">
+					<input class="e-mail large">
 					<br>
-					<label>Телефон<sup>*</sup></label>
+					<label>Телефон:<sup>*</sup></label>
 					<br>
-					<input class="phone">
+					<input class="phone large">
 					<br>
 					<p class="hint"><sup>*</sup> поля обязательны для заполнения</p>
 					<button class="submit">Далее</button>
 				</div>
 			</div>
-		</div>	
+			
 		<div class="footer">
 			<div class="footer-content">
 				<div class="footer-left">
@@ -89,8 +92,10 @@
 					</p>
 				</div>
 				<div class="footer-right">
+					<img src="images/ya100.png">
 				</div>
 			</div>
-		</div>			
+		</div>
+		</div>		
 	</body>
 </html>

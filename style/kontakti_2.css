@@ -1,11 +1,12 @@
-body
+.flare
 {
 	background-color : #00101b;
 	background-image: url('../images/main_page_fon.jpg');
 	background-repeat: no-repeat;
-	background-position: center -380px;
+	background-position: center -330px;
 	font-family: Arial;
 	color: #ffffff;
+	min-width: 1024px;	
 }
 
 .container
@@ -30,7 +31,7 @@ h1, h2, h3, h4, h5, h6
 	display: inline-block;
 	color: #9bb1b7;
 	width: 308px;
-	height: 250px;
+	*height: 250px;
 	margin-right: 28px;
 	font-size: 12px;
 	vertical-align: top;
@@ -61,11 +62,45 @@ h1, h2, h3, h4, h5, h6
 
 
 
+/*
+.feedback_form  input.large{
+	background: url(../images/input_background_long.png) 0 0 no-repeat;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
+	width: 326px;
+	height: 30px;
+	padding: 3px 15px 3px 7px;
+	color: #869ba7;
+	margin: 4px 0 4px 0;
+}
 
+.feedback_form input.large:focus{
+	outline: none;
+	background: url(../images/input_background_long.png) 0 -40px no-repeat;
+}
 
+/*
+.feedback_form  textarea.textarea-large{
+	background: url(../images/textarea_large.png) 0 0 no-repeat;
+	border-width: 3px;
+	border-color: transparent;
+	border-style: solid;
+	padding: 3px 15px 3px 7px;
+	color: #869ba7;
+	margin: 10px 0 10px 0;
+	resize: none;
+}
 
+.feedback_form textarea.textarea-large:focus{
+	outline: none;
+	background: url(../images/textarea_large.png) 0 -181px no-repeat;
+}
+*/
 
-
+form.feedback_form > fieldset{
+	border: none;
+}
 
 sup.required
 {
@@ -93,12 +128,13 @@ sup.required
 	width: 380px;
 	display: inline-block;
 	vertical-align: top;
+	font-size: 9pt;
 }
 
 .form textarea#message
 {
-	width: 550px;
-	height: 160px;
+	width: 602px;
+	height: 165px;
 }
 
 .private_office .left_column
@@ -107,11 +143,41 @@ sup.required
 }
 
 
+.feedback_form .submit{
+	display: inline;
+	background: url(../images/kontact-data-submit.png) -1px -1px no-repeat;
+	border-width: 0;
+	width: 123px;
+	height: 34px;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #ffffff;
+	cursor: pointer;
+	margin-top: 15px;
+	line-height: 30px;
+}
 
+.feedback_form .submit:hover{
+	background: url(../images/kontact-data-submit-hover.png) -1px -1px no-repeat;
+	cursor: pointer;
+}
 
+.feedback_form .submit:active{
+	background: url(../images/kontact-data-submit-active.png) -1px -1px no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	cursor: pointer;
+}
 
+.text_ruqired{
+	text-align: right;
+	display: inline;
+	margin-right: 30px;
+}
+.bottom{
+	text-align: right;
+}
 
-
-
-
-
+.footer-left, .footer-right {
+	display: inline-block;
+}

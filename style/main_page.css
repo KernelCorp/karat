@@ -5,6 +5,7 @@ body
 	background-repeat: no-repeat;
 	background-position: center -10px;
 	font-family: Arial;
+	font-size: 1em;
 	color: #ffffff;
 }
 
@@ -87,8 +88,8 @@ h1, h2, h3, h4, h5, h6
 
 .example span
 {
-	font-size: 12px;
-	line-height: 10px;
+	font-size: 0.9em;
+	line-height: 0.9em;
 	color: #ccc;
 }
 
@@ -104,11 +105,13 @@ h1, h2, h3, h4, h5, h6
 .brilliant
 {
 	float: left;
+	overflow: hidden;
 }
 
 .gold
 {
 	float: right;
+	overflow: hidden;
 }
 
 .examples_4
@@ -154,7 +157,8 @@ h1, h2, h3, h4, h5, h6
 	text-align: center;
 	color: #133d60;
 	font-weight: bold;
-	min-height: 32px;
+	font-size: 0.83em;
+	height: 32px;
 }
 
 .examples_4 .paginator ul li .image
@@ -168,7 +172,8 @@ h1, h2, h3, h4, h5, h6
 .gallery .block_wraper .info .right table
 {
 	margin: 0 auto;
-	font-size: 12px;
+	font-size: 0.9em;
+	border-collapse: collapse;
 }
 
 .examples_4 .paginator ul li table th,
@@ -178,6 +183,7 @@ h1, h2, h3, h4, h5, h6
 	text-align: right;
 	color: #ffffff;
 	font-weight: normal;
+	height: 17px;
 }
 
 .examples_4 .paginator ul li table td,
@@ -185,6 +191,7 @@ h1, h2, h3, h4, h5, h6
 {
 	text-align: left;
 	color: #0c71c0;
+	height: 17px;
 }
 
 .cost
@@ -193,19 +200,19 @@ h1, h2, h3, h4, h5, h6
 	padding: 3px 0;
 	border-top: 1px solid #153c61;
 	border-bottom: 1px solid #153c61;
-	font-size: 14px;
+	font-size: 0.8em;
 	font-family: tahoma;
 }
 
 .cost .number
 {
-	font-size: 18px;
+	font-size: 1rem;
 }
 
 .certificate
 {
 	color: #ffffff;
-	font-size: 16px;
+	font-size: 1em;
 	font-family: tahoma;
 	text-decoration: none;
 	text-align: center;
@@ -228,8 +235,10 @@ h1, h2, h3, h4, h5, h6
 	vertical-align: top;
 }
 
-.examples_4 .navigation ul li a
+.bx-wrapper a.bx-prev,
+.bx-wrapper a.bx-next
 {
+	background: none;
 	color: #246e87;
 	text-decoration: none;
 	padding: 0 3px;
@@ -251,7 +260,7 @@ h1, h2, h3, h4, h5, h6
 {
 	color: #8fa6ae;
 	display: inline-block;
-	font-size: 14px;
+	font-size: 0.8em;
 	text-align: justify;
 	margin-right: 20px;
 	vertical-align: top;
@@ -269,7 +278,7 @@ h1, h2, h3, h4, h5, h6
 .company_and_news .company  .more a
 {
 	color: #cbebf4;	
-	font-size: 14px;
+	font-size: 1em;
 	font-weight: bold;
 	vertical-align: bottom;
 	position: absolute;
@@ -278,7 +287,7 @@ h1, h2, h3, h4, h5, h6
 
 .company_and_news  .news
 {
-	width: 286px;
+	width: 280px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -296,7 +305,7 @@ h1, h2, h3, h4, h5, h6
 .company_and_news .news  .more a
 {
 	color: #cbebf4;	
-	font-size: 14px;
+	font-size: 0.8em;
 	font-weight: bold;
 }
 
@@ -309,13 +318,13 @@ h1, h2, h3, h4, h5, h6
 .company_and_news .news  .elem .date
 {
 	color: #aaa;
-	font-size: 10px;
+	font-size: 0.8em;
 	padding-bottom: 5px;
 }
 
 .company_and_news .news  .elem a
 {
-	font-size: 14px;
+	font-size: 0.8em;
 	color: #376d96;
 }
 

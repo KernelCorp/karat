@@ -1,0 +1,73 @@
+.shapes a {
+	display: block;
+}
+
+div.select {
+	width: 80px;
+}
+
+.middle_params
+{
+	z-index: 1;
+}
+
+.slider_wrapper .inline
+{
+	margin-top: 15px;
+}
+.slider_wrapper .inline *
+{
+	display: block;
+	float: left;
+}
+
+.params
+{
+	width: 200px;
+}
+
+.params > .middle_params
+{
+	position: relative;
+}
+
+.slider_wrapper .all_price p,
+.slider_wrapper .inline p
+{
+	height: 20px;
+	padding-top: 5px;
+}
+
+.slider_wrapper
+{
+	height: 60px;
+}
+
+.params > .slider_wrapper INPUT[type='text']
+{
+	width: 46px;
+}
+
+.dropdown .options
+{
+	z-index: 100;
+}
+
+.dropdown + .dropdown .options
+{
+	z-index: 99;
+}
+
+.dropdown  +.dropdown + .dropdown .options
+{
+	z-index: 98;
+}
+
+.dropdown  + .dropdown  +.dropdown + .dropdown .options
+{
+	z-index: 97;
+}
+
+
+
+

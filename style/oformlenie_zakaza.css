@@ -1,4 +1,4 @@
-body
+.flare
 {
 	background-color : #00101b;
 	background-image: url('../images/main_page_fon.jpg');
@@ -6,6 +6,8 @@ body
 	background-position: center -380px;
 	font-family: Arial;
 	color: #ffffff;
+	min-width: 1024px;
+    padding-bottom: 100px;
 }
 
 .container

@@ -1,4 +1,4 @@
-body
+.flare
 {
 	background-color : #00101b;
 	background-image: url('../images/main_page_fon.jpg');
@@ -6,6 +6,7 @@ body
 	background-position: center -380px;
 	font-family: Arial;
 	color: #ffffff;
+	min-width: 1024px;
 }
 
 .container
@@ -25,6 +26,10 @@ sup.required
 	font-size: 14px;
 }
 
+.private_office input{
+	line-height: 30px;
+}
+
 .private_office
 {
 	color: #869ca5;
@@ -42,7 +47,7 @@ sup.required
 .private_office .left_column,
 .private_office .right_column
 {
-	width: 380px;
+	width: 379px;
 	display: inline-block;
 	vertical-align: top;
 }
@@ -68,7 +73,11 @@ sup.required
 	margin: 6px 0;
 }
 
-.private_office input[type='text'],
+.private_office input.large, .private_office input.middle, .private_office input.small{
+	height: 30px;
+}
+
+
 .private_office .avatar
 {
 	width: 334px;
@@ -95,11 +104,6 @@ sup.required
 	box-shadow: 0 0 5px #6ba5c2; 
 }
 
-.private_office input[type='text']:focus
-{
-	border-color: #ffffff;
-	outline:none;
-}
 
 .private_office .avatar
 {
@@ -123,7 +127,7 @@ sup.required
 }
 .private_office .street input
 {
-	width: 219px;
+	width: 223px;
 }
 
 .private_office input.short

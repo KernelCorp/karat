@@ -25,9 +25,22 @@
 	margin-left: 540px;
 }
 
-.form textarea#message
-{
-	width: 609px;
+/*
+form.feedback_form input.large {
+	padding-top: 5px;
+	padding-left: 7px;	
+	height: 27px;
+	padding-right: 0;
+	line-height: 19px;
+	width: 327px;
+}
+
+form.feedback_form   .textarea-wrap{
+	background-image: url(../images/textarea_large.png); 
+	background-position-x: 0;
+	background-position-y: 0;
+	background-repeat: no-repeat;
+	width: 630px;
 	height: 176px;
-	overflow: auto;
+	margin-top: 10px;
 }
