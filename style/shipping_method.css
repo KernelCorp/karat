@@ -8,11 +8,11 @@
 	min-width: 1024px;	
 }
 
-.content > .left{
+.content8 > .left{
 	float: left;
 }
 
-.content > .right{
+.content8 > .right{
 	float: right;
 	text-align: left;
 	width: 550px;
@@ -131,21 +131,21 @@ div.left > div.street-group > input.street{
 	width: 430px;
 }
 
-.content > .title{
+.content8 > .title{
 	font-size: 30pt;
 	color: #ffffff;
 }
 
-.content label{
+.content8 label{
 	font-size: 9pt;
 	color: #869ba7;
 }
 
-.content sup{
+.content8 sup{
 	color: #a88a0c
 }
 
-.content .submit{
+.content8 .submit{
 	display: inline;
 	background: url(../images/kontact-data-submit.png) -1px -1px no-repeat;
 	border-width: 0;
@@ -159,12 +159,12 @@ div.left > div.street-group > input.street{
 	padding-bottom: 5px;
 }
 
-.content .submit:hover{
+.content8 .submit:hover{
 	background: url(../images/kontact-data-submit-hover.png) -1px -1px no-repeat;
 	cursor: pointer;
 }
 
-.content .submit:active{
+.content8 .submit:active{
 	background: url(../images/kontact-data-submit-active.png) -1px -1px no-repeat;
 	cursor: pointer;
 	cursor: hand;
@@ -172,7 +172,7 @@ div.left > div.street-group > input.street{
 }
 
 
-.content .hint{
+.content8 .hint{
 	display: inline;
 	margin-right: 10px;
 	font-size: 9pt;
@@ -180,7 +180,7 @@ div.left > div.street-group > input.street{
 }
 
 
-.content{
+.content8{
 	min-height: 300px;
 }
 

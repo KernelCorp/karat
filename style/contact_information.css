@@ -8,11 +8,11 @@
 	min-width: 1024px;	
 }
 
-.content > .left{
+.content4 > .left{
 	float: left;
 }
 
-.content > .right{
+.content4 > .right{
 	float: right;
 	text-align: left;
 	width: 550px;
@@ -32,25 +32,25 @@ div.content  input{
 }
 
 .content  input:focus{
-	outline: none;	
+	outline: none;
 	background: url(../images/input_background_long.png) 0px -40px no-repeat;
 }
 */
-.content > .title{
+.content4 > .title{
 	font-size: 30pt;
 	color: #ffffff;
 }
 
-.content label{
+.content4 label{
 	font-size: 9pt;
 	color: #869ba7;
 }
 
-.content sup{
+.content4 sup{
 	color: #a88a0c
 }
 
-.content .submit{
+.content4 .submit{
 	display: inline;
 	background: url(../images/kontact-data-submit.png) -1px -1px no-repeat;
 	border-width: 0;
@@ -64,12 +64,12 @@ div.content  input{
 	line-height: 30px;
 }
 
-.content .submit:hover{
+.content4 .submit:hover{
 	background: url(../images/kontact-data-submit-hover.png) -1px -1px no-repeat;
 	cursor: pointer;
 }
 
-.content .submit:active{
+.content4 .submit:active{
 	background: url(../images/kontact-data-submit-active.png) -1px -1px no-repeat;
 	cursor: pointer;
 	cursor: hand;
@@ -77,7 +77,7 @@ div.content  input{
 }
 
 
-.content .hint{
+.content4 .hint{
 	display: inline;
 	margin-right: 10px;
 	font-size: 9pt;
@@ -86,6 +86,6 @@ div.content  input{
 }
 
 
-.content{
+.content4{
 	min-height: 300px;
 }

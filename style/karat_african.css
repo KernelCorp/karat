@@ -8,8 +8,8 @@
 	min-width: 1024px;
 }
 
-.content{
-    margin-top: 30px;
+.content-container{
+    margin: 30px auto;
     width: 980px;
     height: 800px;
 }
@@ -41,10 +41,9 @@ h1.title{
 .text-wrapper{
     width: 680px;
 }
-.photo-container{
+.photo-container-2{
     margin-top: 3px;
     float: right;
-
 }
 .video-content{
     margin-top: -5px;

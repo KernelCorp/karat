@@ -1,19 +1,6 @@
-.flare {
-	background-color : #00101b;
-	background-image: url('../images/main_page_fon.jpg');
-	background-repeat: no-repeat;
-	background-position: center -380px;
-	font-family: Arial;
-	color: #ffffff;
-	min-width: 1024px;	
-}
-
-
 .header{
 	margin-bottom: -30px;
 }
-
-
 
 .content{
 	width: 1024px;
@@ -44,7 +31,7 @@ h1.bank-details-title{
 .bank-details{
 	margin-top: 15px;
 	padding: 6px;
-	background: url(../images/details-border.png) 0 0 no-repeat;	
+	background: url(../images/details-border.png) 0 0 no-repeat;
 	width: 300px;
 	color: #869da5;
 	font-weight: normal;
@@ -70,23 +57,25 @@ h1.bank-details-title{
 .photo-container{
 	float: left;
 	margin-left: 5px;
-	
+
 }
-.photo-container > img{ 	
+
+.photo-container > img{
 	float: left
 }
+
 .text-container{
 	text-align: left;
 	margin-left: 30px;
 	float: right;
 	width: 653px;
 }
+
 .title-h1{
 	color: #ffffff;
 	font-size: 28pt;
 	text-align: right;
 	float: left;
 	font-weight: normal;
-	margin-bottom: 0;
 }
 
