@@ -992,6 +992,7 @@ sup.required
 .form .right_column
 {
     width: 380px;
+    margin-left: -25px;
     display: inline-block;
     vertical-align: top;
     font-size: 9pt;

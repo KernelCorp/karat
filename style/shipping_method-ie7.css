@@ -10,66 +10,66 @@
 	line-height: 150px;
 }
 
-.content .hint{
+.content8 .hint{
 	line-height: 20px;
 	margin-top: 15px;
 	display: block;
 	float: left
 }
 
-.content .submit{
+.content8 .submit{
 	margin: 0;
 	margin-top:10px;
 }
 
-div.content input.large, div.content input.middle, div.content input.small{
+div.content8 input.large, div.content8 input.middle, div.content8 input.small{
 	padding-top: 5px;
 	padding-left: 7px;	
 	padding-right: 0;
 }
 
 
-div.content  input.large{
+div.content8  input.large{
 	padding: 5px 2px 5px 3px;	
 	height: 29px;
 	width: 330px;
 }
 
 
-div.content  input.small{
+div.content8  input.small{
 	padding: 5px 0 5px 3px;
 	width: 90px;	
 	height: 29px;
 }
 
-div.content  input.middle{
+div.content8  input.middle{
 	padding: 5px 0 0 5px;
 	width: 228px;	
 	height: 32px;
 }
 
-div.content > div.left  input.building{
+div.content8 > div.left  input.building{
 	margin-left: 10px;
 }
 
-div.content > div.left  > .building-group > label{
+div.content8 > div.left  > .building-group > label{
 	margin-left: 5px;
 }
 
-div.text-container > p.text{
+div.text-container2 > p.text{
 	margin-top: 85px;
 }
 
-.content{
+.content8{
 	padding-bottom: 200px;
 	margin-top: 50px;
 }
 
-div.content > div.left > div.building-group{
+div.content8 > div.left > div.building-group{
 	float: none;
 }
 
-div.content > div.right  textarea.textarea{
+div.content8 > div.right  textarea.textarea{
 	background-attachment: fixed;
 	background-image: url(../images/additional_information_textarea.png); 
 	background-position-x: 0;
@@ -80,7 +80,7 @@ div.content > div.right  textarea.textarea{
 	margin-top: 0;
 }
 
-div.content > div.right > .textarea-wrap{
+div.content8 > div.right > .textarea-wrap{
 	background-image: url(../images/additional_information_textarea.png); 
 	background-position-x: 0;
 	background-position-y: 0;
@@ -90,7 +90,7 @@ div.content > div.right > .textarea-wrap{
 	margin-top: 10px;
 }
 
-.text-container > .text{
+.text-container2 > .text{
 	width: 1024px;
 }
 .container{
