@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6
 {
     max-width: 90px;
     max-height: 90px;
-    vertical-align: center;
+    vertical-align: middle;
     float: left;
     padding: 20px 0;
 }
@@ -1164,7 +1164,7 @@ div.content8 > div.right > .textarea-wrap{
 .items-table-container tbody tr{
     border-top: 1px solid #0c71c0;
 }
-table{
+.items-info-table{
     text-align: center;
     width: 928px;
     font-weight: bold;
@@ -1232,3 +1232,161 @@ td{
     color: #2d5d81;
     font-size: 74%;
 }
+
+.footer-center {
+    line-height: 1;
+}
+
+.footer .footer-right{
+    margin-top: -40px;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+body
+{
+    background-color : #00101b;
+    font-family: Arial;
+}
+
+.header .info
+{
+    height: 70px;
+}
+
+.header
+{
+    background-image: url('../images/logo.png');
+    color: #fff;
+    width: 1024px;
+    height: 195px;
+    margin: 0 auto;
+}
+
+.header .contacts
+{
+    float: left;
+    margin-top: 25px;
+    width: 235px;
+}
+
+.header .basket
+{
+    background: url('../images/basket.png') no-repeat center left;
+    float: right;
+    padding-left: 35px;
+    margin-top: 25px;
+    width: 200px;
+}
+
+.header .language
+{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header .language a img
+{
+    border: none;
+}
+
+.header .language  ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: center;
+}
+
+.header .language  li.current
+{
+    opacity: 1;
+}
+
+.header .language  li
+{
+    padding: 0;
+    height: 17px;
+    width: 24px;
+    display: inline;
+    filter:alpha(opacity=40);
+}
+.header .language  li:hover
+{
+    filter:alpha(opacity=100);
+}
+
+.header .menu
+{
+
+    width: 1024px;
+    height: 238px;
+    margin: 0 auto;
+}
+
+.header .menu ul
+{
+    height: 60px;
+    list-style: none;
+    margin: 20px 10px 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+}
+
+.header .menu li
+{
+    display: inline;
+    height: 60px;
+}
+
+.header .menu li a
+{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    height: 34px;
+    padding: 10px 7px;
+    margin: 10px 0px;
+    min-width: 94px;
+}
+
+.header .menu li a:hover
+{
+    color: #ddd;
+    text-decoration: none;
+    background: url('../images/menu_arr_left.png'),
+                url('../images/menu_select_body.png') repeat-x,
+                url('../images/menu_arr_right.png');
+    background-repeat: no-repeat;
+
+}
+.header .menu li a.long
+{
+    min-width: 134px;
+}
+.header .menu li a.long:hover
+{
+    background: url('../images/menu_arr_left.png'),
+    url('../images/menu_select_body.png') repeat-x,
+    url('../images/menu_arr_right.png');
+}
+
+.header .menu ul.menu_left
+{
+    float: left;
+}
+
+.header .menu ul.menu_right
+{
+    float: right;
+}
+
+
+
+
+
