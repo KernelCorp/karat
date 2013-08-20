@@ -2562,9 +2562,10 @@ body
 {
     color: #ddd;
     text-decoration: none;
-    background: url('../images/menu_arr_left.png') 0 0 no-repeat,
-                url('../images/menu_select_body.png') space,
-                url('../images/menu_arr_right.png') 100% 0 no-repeat;
+    background:
+                url('../images/menu_arr_left1.png') 0 0 no-repeat,
+                url('../images/menu_arr_right1.png') 100% 0 no-repeat,
+                url('../images/menu_select_body.png') repeat-x;
 }
 
 .header .menu li a:hover:before,
@@ -2577,18 +2578,18 @@ body
 {
     color: #ddd;
     text-decoration: none;
-    background: url('../images/menu_arr_left.png') 0 0 no-repeat,
-                url('../images/menu_select_body.png')  repeat-x,
-                url('../images/menu_arr_right.png') 100% 0 no-repeat;
+    background:                 url('../images/menu_arr_left1.png') 0 0 no-repeat,
+    url('../images/menu_arr_right1.png') 100% 0 no-repeat,
+    url('../images/menu_select_body.png') repeat-x;
 }
 
 
 .header .menu li.long a:hover,
 .header .menu li.long.current a
 {
-    background: url('../images/menu_arr_left.png') 0 0 no-repeat,
-                url('../images/menu_select_body.png')  repeat-x,
-                url('../images/menu_arr_right.png') 100% 0 no-repeat;;
+    background:                 url('../images/menu_arr_left1.png') 0 0 no-repeat,
+    url('../images/menu_arr_right1.png') 100% 0 no-repeat,
+    url('../images/menu_select_body.png') repeat-x;
 }
 
 .header .menu ul.menu_left
