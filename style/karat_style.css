@@ -2928,3 +2928,23 @@ div.content  input{
 .content4 input:nth-child(5){
     width: 40px;
 }
+
+.continue1{
+    margin-top: 66px;
+}
+.continue2{
+    margin-top: 13px;
+}
+
+.content4 input.generate-cheker{
+    width: 14px;
+    height: 13px;
+}
+
+.content4 label.generate-cheker-name{
+    line-height: 20px;
+}
+
+.content4 .starrequired{
+    color: #a88a0c;
+}

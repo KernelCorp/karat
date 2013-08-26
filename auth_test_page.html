@@ -1,7 +1,7 @@
 ﻿<html class="bx-no-touch bx-chrome bx-boxshadow bx-borderradius bx-flexwrap bx-boxdirection bx-transition bx-transform"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="minimum-scale=0.5, initial-scale=1, maximum-scale=3.0">
-    <link rel="stylesheet" type="text/css" href="./style/karat_style.css">
+    <link rel="stylesheet" type="text/css" href="/css/karat_style.css">
     <!--[if IE 7]>
     <link rel="stylesheet" type="text/css" href="/css/karat_ie.css" />
     <![endif]-->
@@ -73,7 +73,7 @@
             </tr>
             <tr>
                 <td valign="top">
-                    <table class="sale_order_full_table">
+                    <table class="sale_order_full_table1">
                         <form method="post" action="/personal/order/" name="order_auth_form"></form>
                         <input type="hidden" name="sessid" id="sessid" value="09cfb9e4e4225816fa4562a7ca0958a4">					<tbody><tr>
                         <td>Если вы помните свой логин и пароль, то введите их в соответствующие поля:</td>
@@ -90,8 +90,8 @@
                         <td nowrap=""><a href="/auth.php?forgot_password=yes&amp;back_url=%2Fpersonal%2Forder%2F">Забыли пароль?</a></td>
                     </tr>
                     <tr>
-                        <td nowrap="" align="center">
-                            <input type="submit" value="Продолжить оформление заказа">
+                        <td nowrap="">
+                            <input class="continue1" type="submit" value="Продолжить оформление заказа">
                             <input type="hidden" name="do_authorize" value="Y">
                         </td>
                     </tr>
@@ -121,7 +121,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td nowrap=""><input type="radio" id="NEW_GENERATE_N" name="NEW_GENERATE" value="N" onclick="ChangeGenerate(false)"> <label for="NEW_GENERATE_N">Задать логин и пароль</label></td>
+                            <td nowrap=""><input class="generate-cheker" type="radio" id="NEW_GENERATE_N" name="NEW_GENERATE" value="N" onclick="ChangeGenerate(false)"> <label for="NEW_GENERATE_N">Задать логин и пароль</label></td>
                         </tr>
                         <tr>
                             <td>
@@ -154,7 +154,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="radio" id="NEW_GENERATE_Y" name="NEW_GENERATE" value="Y" onclick="ChangeGenerate(true)" checked=""> <label for="NEW_GENERATE_Y">Логин и пароль сгенерировать автоматически</label>
+                                <input class="generate-cheker" type="radio" id="NEW_GENERATE_Y" name="NEW_GENERATE" value="Y" onclick="ChangeGenerate(true)" checked=""> <label class="generate-cheker-name" for="NEW_GENERATE_Y">Логин и пароль сгенерировать автоматически</label>
                                 <script language="JavaScript">
                                     <!--
                                     ChangeGenerate(true);
@@ -163,8 +163,8 @@
                             </td>
                         </tr>
                         <tr>
-                            <td align="center">
-                                <input type="submit" value="Продолжить оформление заказа">
+                            <td>
+                                <input class="continue2" type="submit" value="Продолжить оформление заказа">
                                 <input type="hidden" name="do_register" value="Y">
                             </td>
                         </tr>
@@ -174,7 +174,7 @@
             </tr>
             </tbody></table>
         <br><br>
-        Символом "звездочка" (<font color="#FF0000">*</font>) отмечены обязательные для заполнения поля.<br><br>
+        Символом "звездочка" (<em class="starrequired">*</em>) отмечены обязательные для заполнения поля.<br><br>
         После регистрации вы получите информационное письмо.<br><br>
         Личные сведения, полученные в распоряжение интернет-магазина при регистрации или каким-либо иным образом, не будут без разрешения пользователей передаваться третьим организациям и лицам за исключением ситуаций, когда этого требует закон или судебное решение.</div>
 
