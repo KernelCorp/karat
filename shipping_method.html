@@ -58,13 +58,40 @@
 				<div class="left">
 					<label>Регион:<sup>*</sup></label>
 					<br>
-					<input class="region large">
+                    <div class="dropdown-wrapper">
+                    <div class="dropdown-wrapper2">
+                        <select class="region dropdown country">
+                            <option selected disabled>Страна</option>
+                            <option value="Россия">Россия</option>
+                            <option value="Новая Зеландия">Новая Зеландия</option>
+                            <option value="Лихтенштейн">Лихтенштейн</option>
+                        </select>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="dropdown-wrapper">
+                    <div class="dropdown-wrapper2">
+                        <select class="region dropdown state">
+                            <option selected disabled>Регион</option>
+                            <option value="Новосибирск">Новосибирская обл</option>
+                            <option value="Челябинск">Челябинская обл</option>
+                            <option value="Москва">Московская обл</option>
+                        </select>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="dropdown-wrapper">
+                    <div class="dropdown-wrapper2">
+                        <select class="region dropdown city">
+                            <option selected disabled>Город</option>
+                            <option value="Новосибирск">Новосибирск</option>
+                            <option value="Челябинск">Челябинск</option>
+                            <option value="Москва">Москва</option>
+                        </select>
+                    </div>
+                    </div>
 					<br>
-					<label>Населенный пункт:<sup>*</sup></label>
-					<br>
-					<input class="city large">
-					<br>
-					<div class="street-group">	
+					<div class="street-group">
 						<label>Улица:<sup>*</sup></label>
 						<br>
 						<input class="street middle">
