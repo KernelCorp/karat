@@ -182,9 +182,15 @@ h1.bank-details-title{
     cursor: pointer;
 }
 
+
 .params ul.shapes > li.endline {
     margin-right: 0;
 }
+
+.params ul.shapes > li:hover {
+   background: #fff;
+}
+
 
 .params .dropdowns_wrapper {
     text-align: left;
@@ -483,11 +489,22 @@ a[class^="i"] {
     margin: 0 auto;
 }
 
+a[class^="i"]:hover {
+    border: 1px solid #0c71c0;
+    border-radius: 15px;
+}
+
+a.active {
+    border: 1px solid #0c71c0;
+    border-radius: 15px;
+}
+
 a.i1 {
     background-position: 0 0;
     height: 68px;
     width: 48px;
 }
+
 
 a.i2 {
     background-position: -48px 0;
