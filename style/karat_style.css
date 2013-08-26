@@ -2965,3 +2965,13 @@ div.content  input{
 .content4 .starrequired{
     color: #a88a0c;
 }
+
+.content4 .continue1,
+.content4 .continue2{
+    background: url(../images/continue_button.png) no-repeat;
+    width: 225px;
+}
+.content4 .continue1:hover,
+.content4 .continue2:hover{
+    background: url(../images/continue_button_hover.png) no-repeat;
+}
