@@ -4,16 +4,13 @@
 		<meta charset='utf-8'>
 		<meta name="viewport" content="minimum-scale=0.5, initial-scale=1, maximum-scale=3.0">
 		<title>Способ доставки</title>
-		<link rel="stylesheet" href="./style/header.css" type="text/css" />
-		<link rel="stylesheet" href="./style/footer.css" type="text/css" />		
-		<link rel="stylesheet" href="./style/shipping_method.css" type="text/css" />
-		<link rel="stylesheet" href="./style/forms.css" type="text/css" />
+		<link rel="stylesheet" href="./style/karat_style.css" type="text/css" />
 		<script type="text/javascript" src="./js/jquery.min.js"></script>
 		<script type="text/javascript" src="./js/scrolling_for_ff.js"></script>
 		<!--[if ( IE 7)]>
 			<link rel="stylesheet" href="./style/ie_header.css" type="text/css" />
 			<link rel="stylesheet" type="text/css" href="./style/footer-ie7.css">
-			<link rel="stylesheet" type="text/css" href="./style/shipping_method-ie7.css">			
+			<link rel="stylesheet" type="text/css" href="./style/karat_ie.css">
 			<script type="text/javascript" src="./js/shipping_method.js"></script>	
 		<![endif]-->
 		
@@ -44,30 +41,58 @@
 					</div>
 				</div>
 				<div class='menu'>
-					<ul class='menu_left'>
-						<li class='middle current'><a href= '#'>О КОМПАНИИ</a></li>
-						<li><a href= '#'>НОВОСТИ</a></li>
-						<li class='middle'><a href= '#'>AFRICAT-KARAT</a></li>
-					</ul>
-					<ul class='menu_right'>
-						<li><a href= '#'>КАТАЛОГ</a></li>
-						<li class='long'><a href= '#'>ВСЁ О БРИЛЛИАНТАХ</a></li>
-						<li><a href= '#'>КОНТАКТЫ</a></li>
-					</ul>
+                    <ul class='menu_left'>
+                        <li class='item-current'><a href= '#'><em class="left-placeholder"></em><span>О КОМПАНИИ</span><em class="right-placeholder"></em></a></li>
+                        <li><a href= '#'><em class="left-placeholder"></em><span>НОВОСТИ</span><em class="right-placeholder"></em></a></li>
+                        <li class='middle'><a href= '#'><em class="left-placeholder"></em><span>AFRICAT-KARAT</span><em class="right-placeholder"></em></a></li>
+                    </ul>
+                    <a href="#"><ul class="home_logo_link"></ul></a>
+                    <ul class='menu_right'>
+                        <li><a href= '#'><em class="left-placeholder"></em><span>КАТАЛОГ</span><em class="right-placeholder"></em></a></li>
+                        <li class='long'><a href= '#'><em class="left-placeholder"></em><span>ВСЁ О БРИЛЛИАНТАХ</span><em class="right-placeholder"></em></a></li>
+                        <li><a href= '#'><em class="left-placeholder"></em><span>КОНТАКТЫ</span><em class="right-placeholder"></em></a></li>
+                    </ul>
 				</div>
 			</div>
-			<div class="container content">
+			<div class="container content8">
 				<h1 class="title"> Способ доставки</h1>
 				<div class="left">
 					<label>Регион:<sup>*</sup></label>
 					<br>
-					<input class="region large">
+                    <div class="dropdown-wrapper">
+                    <div class="dropdown-wrapper2">
+                        <select class="region dropdown country">
+                            <option selected disabled>Страна</option>
+                            <option value="Россия">Россия</option>
+                            <option value="Новая Зеландия">Новая Зеландия</option>
+                            <option value="Лихтенштейн">Лихтенштейн</option>
+                        </select>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="dropdown-wrapper">
+                    <div class="dropdown-wrapper2">
+                        <select class="region dropdown state">
+                            <option selected disabled>Регион</option>
+                            <option value="Новосибирск">Новосибирская обл</option>
+                            <option value="Челябинск">Челябинская обл</option>
+                            <option value="Москва">Московская обл</option>
+                        </select>
+                    </div>
+                    </div>
+                    <br>
+                    <div class="dropdown-wrapper">
+                    <div class="dropdown-wrapper2">
+                        <select class="region dropdown city">
+                            <option selected disabled>Город</option>
+                            <option value="Новосибирск">Новосибирск</option>
+                            <option value="Челябинск">Челябинск</option>
+                            <option value="Москва">Москва</option>
+                        </select>
+                    </div>
+                    </div>
 					<br>
-					<label>Населенный пункт:<sup>*</sup></label>
-					<br>
-					<input class="city large">
-					<br>
-					<div class="street-group">	
+					<div class="street-group">
 						<label>Улица:<sup>*</sup></label>
 						<br>
 						<input class="street middle">
@@ -100,7 +125,7 @@
 					<button class="submit">Далее</button>
 				</div>
 				<br>
-				<div class="text-container">
+				<div class="text-container2">
 					<p class="text">По Москве и области только самовывоз, в другие регионы России спец.связью
 					(Если сумма покупки от 50 тыс. и выше, пересылка Спец. Связью осуществляется за счет ООО «КАРАТ».
 					До 50 тыс. Услуги Спец.Связи олачивает клиент). </p>
