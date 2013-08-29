@@ -494,7 +494,7 @@ a[class^="i"]:hover {
     border-radius: 15px;
 }
 
-a.active {
+.shapes a.active {
     border: 1px solid #0c71c0;
     border-radius: 15px;
 }
