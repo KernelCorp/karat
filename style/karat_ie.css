@@ -1339,6 +1339,8 @@ body
 
 .header .menu li
 {
+    padding-top: 0px;
+    padding-bottom: 10px;
     display: inline;
     height: 60px;
 }
@@ -1350,8 +1352,8 @@ body
     display: inline-block;
     font-size: 12px;
     height: 34px;
-    padding: 10px 7px;
-    margin: 10px 0px;
+    padding: 10px 0px;
+    margin: 0px 0px;
     min-width: 94px;
 }
 
@@ -1384,6 +1386,38 @@ body
 .header .menu ul.menu_right
 {
     float: right;
+}
+
+.header .menu .home_logo_link
+{
+    cursor: pointer;
+    float: left;
+    width: 280px;
+    height: 130px;
+    margin-top: -10px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.left-placeholder{
+    float: none;
+    margin-top: -20px;
+    display: inline-block;
+    width: 15px;
+    height: 34px;
+    color: #ddd;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.right-placeholder{
+    float: none;
+    margin-top: -35px;
+    display: inline-block;
+    width: 14px;
+    height: 34px;
+    color: #ddd;
+    text-decoration: none;
 }
 
 

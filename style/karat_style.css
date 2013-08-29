@@ -494,7 +494,7 @@ a[class^="i"]:hover {
     border-radius: 15px;
 }
 
-a.active {
+.shapes a.active {
     border: 1px solid #0c71c0;
     border-radius: 15px;
 }
@@ -2609,6 +2609,15 @@ li a:hover > .right-placeholder,
     float: right;
 }
 
+.header .menu ul.home_logo_link
+{
+    float: left;
+    width: 280px;
+    height: 130px;
+    margin-top: -10px;
+    margin-left: 25px;
+    margin-right: 0px;
+}
 
 @media(min-width: 1601px) {
     body * {
