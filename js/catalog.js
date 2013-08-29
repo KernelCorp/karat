@@ -15,7 +15,7 @@ $('.dropdowns_wrapper select').each(function() {
 
 	// Cache the styled div
 	var $styledSelect = $this.next('div.styledSelect');
-	
+
 	// Try to do
 	$styledSelect.append('<p></p>')
 	$styledSelect.append('<div class="corner"></div>');
@@ -38,7 +38,7 @@ $('.dropdowns_wrapper select').each(function() {
 			rel: $this.children('option').eq(i).val()
 		}).appendTo($list);
 	}
-	
+
 	// Cache the list items
 	var $listItems = $list.children('li');
 
@@ -46,7 +46,7 @@ $('.dropdowns_wrapper select').each(function() {
 	$styledSelect.click(function(e) {
 		e.stopPropagation();
 		$('div.styledSelect.active').each(function() {
-			$(this).removeClass('active').next('ul.options').hide();	
+			$(this).removeClass('active').next('ul.options').hide();
 		});
 		$(this).toggleClass('active').next('ul.options').toggle();
 	});
@@ -101,5 +101,23 @@ $("#price_low, #price_high").on("focusout", function() {
 		num.setNumber($ph.val());
 		$ph.val(num.toFormatted());
 	};
-	setTimeout(focuspocus, 200);	
+	setTimeout(focuspocus, 200);
+})
+
+
+$(document).ready(function(){
+    $('.certificate').click(function(e){
+        var pic_id = $(e).parent().attr('id')+'pic';
+        $(pic_id).slideDown('slow');
+        $('.shadow_background').slideDown('slow');
+        e.preventDefault();
+    });
+
+
+    $('.close-button, .shadow_background').click(function(e){
+        var pic_id = $(e).parent.id+'pic';
+        $(pic_id).slideUp('slow');
+        $('.shadow_background').slideUp('slow');
+        e.preventDefault();
+    });
 })

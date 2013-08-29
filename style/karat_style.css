@@ -2975,3 +2975,37 @@ div.content  input{
 .content4 .continue2:hover{
     background: url(../images/continue_button_hover.png) no-repeat;
 }
+.news-list{
+    margin-top: 30px;
+}
+
+.news-list a{
+    color: #ffffff;
+}
+
+.news-date-time{
+    display: block;
+    color: #869ba7;
+    font-size: 9pt;
+}
+
+.shadow_background{
+    display: none;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 101;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.s-image{
+    position: absolute;
+    display: none;
+    margin: auto auto;
+    z-index: 102;
+    line-height: 1px;
+}
+
