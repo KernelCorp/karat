@@ -107,17 +107,20 @@ $("#price_low, #price_high").on("focusout", function() {
 
 $(document).ready(function(){
     $('.certificate').click(function(e){
-        var pic_id = $(e).parent().attr('id')+'pic';
+        e.preventDefault();
+        var pic_id = '#' + $(this).parent('li').attr('id') + 'pic';
+        var margin_left = -$(pic_id).width()/2 + 'px';
+        var margin_top =  -$(pic_id).height()/2 + 'px';
+        var top = $(window).height()/2 + $(document).scrollTop()
+        $(pic_id).css({'margin-left': margin_left, 'margin-top': margin_top, 'top': top});
         $(pic_id).slideDown('slow');
         $('.shadow_background').slideDown('slow');
-        e.preventDefault();
     });
 
 
-    $('.close-button, .shadow_background').click(function(e){
-        var pic_id = $(e).parent.id+'pic';
-        $(pic_id).slideUp('slow');
+    $('.shadow_background').click(function(){
+        var pic_id = $(this).parent().attr('id') & 'pic';
+        $('#1pic').slideUp('slow');
         $('.shadow_background').slideUp('slow');
-        e.preventDefault();
     });
 })

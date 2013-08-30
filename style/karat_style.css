@@ -3011,6 +3011,7 @@ div.content  input{
 }
 
 .s-image{
+    left:50%;
     position: absolute;
     display: none;
     margin: auto auto;
